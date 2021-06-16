@@ -1,0 +1,4 @@
+No Pentaho Community, como podemos fazer para executar processos agendados, 
+sem ter que manter o Pentaho Data Integration aberto?
+
+Use o Kitchen para criar um arquivo .BAT para ser executado pelo agendador do Windows

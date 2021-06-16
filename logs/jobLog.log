@@ -1,0 +1,382 @@
+2021/06/16 15:50:52 - Kitchen - Logging is at level : Basic
+2021/06/16 15:50:52 - Kitchen - Start of run.
+2021/06/16 15:50:52 - RepositoriesMeta - Reading repositories XML file: C:\Users\User\.kettle\repositories.xml
+2021/06/16 15:51:46 - jobPrincipal - Start of job execution
+2021/06/16 15:51:46 - Carte - Installing timer to purge stale objects after 1440 minutes.
+2021/06/16 15:51:46 - jobPrincipal - Starting entry [Variáveis de Carga]
+2021/06/16 15:51:46 - jobPrincipal - Starting entry [Carga Dimensões]
+2021/06/16 15:51:46 - Carga Dimensões - Using run configuration [Pentaho local]
+2021/06/16 15:51:46 - JobCargaDimensoesParalelo - Starting entry [Carga Fábrica]
+2021/06/16 15:51:46 - JobCargaDimensoesParalelo - Launched job entry [Carga Fábrica] in parallel.
+2021/06/16 15:51:46 - JobCargaDimensoesParalelo - Starting entry [Carga Cliente]
+2021/06/16 15:51:46 - JobCargaDimensoesParalelo - Launched job entry [Carga Cliente] in parallel.
+2021/06/16 15:51:46 - JobCargaDimensoesParalelo - Starting entry [Carga Produto]
+2021/06/16 15:51:46 - JobCargaDimensoesParalelo - Launched job entry [Carga Produto] in parallel.
+2021/06/16 15:51:46 - JobCargaDimensoesParalelo - Starting entry [Carga Organizacional]
+2021/06/16 15:51:46 - JobCargaDimensoesParalelo - Launched job entry [Carga Organizacional] in parallel.
+2021/06/16 15:51:46 - JobCargaDimensoesParalelo - Starting entry [Carga Tempo]
+2021/06/16 15:51:46 - JobCargaDimensoesParalelo - Launched job entry [Carga Tempo] in parallel.
+2021/06/16 15:51:46 - Carga Produto - Using run configuration [Pentaho local]
+2021/06/16 15:51:46 - JobCargaDimensaoProduto - Starting entry [Carga Categoria]
+2021/06/16 15:51:46 - Carga Organizacional - Using run configuration [Pentaho local]
+2021/06/16 15:51:46 - JobCargaDimensaoOrganizacional - Starting entry [Processo 1]
+2021/06/16 15:51:46 - Carga Fábrica - Using run configuration [Pentaho local]
+2021/06/16 15:51:46 - Carga Fábrica - Using legacy execution engine
+2021/06/16 15:51:46 - Carga Categoria - Using run configuration [Pentaho local]
+2021/06/16 15:51:46 - Carga Categoria - Using legacy execution engine
+2021/06/16 15:51:46 - Carga Cliente - Using run configuration [Pentaho local]
+2021/06/16 15:51:46 - Processo 1 - Using run configuration [Pentaho local]
+2021/06/16 15:51:46 - Carga Cliente - Using legacy execution engine
+2021/06/16 15:51:46 - Processo 1 - Using legacy execution engine
+2021/06/16 15:51:46 - DimensaoOrganizacional_Processo1 - Dispatching started for transformation [DimensaoOrganizacional_Processo1]
+2021/06/16 15:51:46 - DimensaoFabrica - Dispatching started for transformation [DimensaoFabrica]
+2021/06/16 15:51:46 - DimensaoProduto_Categoria - Dispatching started for transformation [DimensaoProduto_Categoria]
+2021/06/16 15:51:46 - DimensaoCliente - Dispatching started for transformation [DimensaoCliente]
+2021/06/16 15:51:46 - Carga Tempo - Using run configuration [Pentaho local]
+2021/06/16 15:51:46 - Carga Tempo - Using legacy execution engine
+2021/06/16 15:51:46 - DimensaoTempo - Dispatching started for transformation [DimensaoTempo]
+2021/06/16 15:51:47 - Gerar 4000 linhas.0 - Finished processing (I=0, O=0, R=0, W=4000, U=0, E=0)
+2021/06/16 15:51:47 - Leitura Fábricas.0 - Header row skipped in file 'c:\treinamento\arquivos\Fabricas.txt'
+2021/06/16 15:51:47 - Leitua das Categorias.0 - Header row skipped in file 'c:\treinamento\arquivos\MARCAS E CATEGORIAS.csv'
+2021/06/16 15:51:47 - Leitura Fábricas.0 - Finished processing (I=3, O=0, R=0, W=2, U=0, E=0)
+2021/06/16 15:51:47 - Leitua das Categorias.0 - Finished processing (I=10, O=0, R=0, W=9, U=0, E=0)
+2021/06/16 15:51:47 - Incremento de Dia.0 - Finished processing (I=0, O=0, R=4000, W=4000, U=0, E=0)
+2021/06/16 15:51:47 - Leitura das Regiões.0 - Header row skipped in file 'c:\treinamento\arquivos\REGIOES DOS ESTADOS.csv'
+2021/06/16 15:51:47 - Leitura das Regiões.0 - Finished processing (I=10, O=0, R=0, W=9, U=0, E=0)
+2021/06/16 15:51:47 - Dimensão Fábrica.0 - Finished processing (I=2, O=0, R=2, W=2, U=0, E=0)
+2021/06/16 15:51:47 - JobCargaDimensoesParalelo - Starting entry [Success]
+2021/06/16 15:51:47 - Nível Categoria.0 - Finished processing (I=9, O=0, R=9, W=9, U=0, E=0)
+2021/06/16 15:51:47 - JobCargaDimensoesParalelo - Finished job entry [Success] (result=[true])
+2021/06/16 15:51:47 - JobCargaDimensaoProduto - Starting entry [Carga Marca]
+2021/06/16 15:51:47 - Carga Marca - Using run configuration [Pentaho local]
+2021/06/16 15:51:47 - Carga Marca - Using legacy execution engine
+2021/06/16 15:51:47 - DimensaoProduto_Marca - Dispatching started for transformation [DimensaoProduto_Marca]
+2021/06/16 15:51:47 - Leitua das Marcas.0 - Header row skipped in file 'c:\treinamento\arquivos\MARCAS E CATEGORIAS.csv'
+2021/06/16 15:51:47 - Leitua das Marcas.0 - Finished processing (I=10, O=0, R=0, W=9, U=0, E=0)
+2021/06/16 15:51:47 - Nível Marca.0 - Finished processing (I=9, O=0, R=9, W=9, U=0, E=0)
+2021/06/16 15:51:47 - JobCargaDimensaoProduto - Starting entry [Carga Produto]
+2021/06/16 15:51:47 - Calcula o dia.0 - Finished processing (I=0, O=0, R=4000, W=4000, U=0, E=0)
+2021/06/16 15:51:47 - Carga Produto - Using run configuration [Pentaho local]
+2021/06/16 15:51:47 - Carga Produto - Using legacy execution engine
+2021/06/16 15:51:47 - DimensaoProduto_Produto - Dispatching started for transformation [DimensaoProduto_Produto]
+2021/06/16 15:51:47 - Agregadores de Tempo.0 - Finished processing (I=0, O=0, R=4000, W=4000, U=0, E=0)
+2021/06/16 15:51:47 - Achar o Semestre da Data.0 - Finished processing (I=0, O=0, R=4000, W=4000, U=0, E=0)
+2021/06/16 15:51:47 - Nome do Trimestre.0 - Finished processing (I=0, O=0, R=4000, W=4000, U=0, E=0)
+2021/06/16 15:51:47 - Nome do Semestre.0 - Finished processing (I=0, O=0, R=4000, W=4000, U=0, E=0)
+2021/06/16 15:51:48 - Nome dos Meses.0 - Finished processing (I=12, O=0, R=0, W=12, U=0, E=0)
+2021/06/16 15:51:48 - Leitura Funcionários Grupo 1.0 - Finished processing (I=8, O=0, R=0, W=8, U=0, E=0)
+2021/06/16 15:51:48 - Inicializa Cod_Pai Esquerda Direita Nível.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2021/06/16 15:51:48 - Leitura da Dimensão Produto.0 - Finished processing (I=35, O=0, R=0, W=35, U=0, E=0)
+2021/06/16 15:51:48 - Duplica coluna de descrição.0 - Finished processing (I=0, O=0, R=35, W=35, U=0, E=0)
+2021/06/16 15:51:48 - Split Marca Tamanho e Sabor.0 - Finished processing (I=0, O=0, R=35, W=35, U=0, E=0)
+2021/06/16 15:51:48 - Leitura Planilha de Clientes.0 - Finished processing (I=57, O=0, R=0, W=57, U=0, E=0)
+2021/06/16 15:51:48 - Split Cliente.0 - Finished processing (I=0, O=0, R=57, W=57, U=0, E=0)
+2021/06/16 15:51:48 - Split Endereço.0 - Finished processing (I=0, O=0, R=57, W=57, U=0, E=0)
+2021/06/16 15:51:48 - Dimensão Produto.0 - Finished processing (I=35, O=0, R=35, W=35, U=0, E=0)
+2021/06/16 15:51:48 - JobCargaDimensaoProduto - Starting entry [Success]
+2021/06/16 15:51:48 - JobCargaDimensaoProduto - Finished job entry [Success] (result=[true])
+2021/06/16 15:51:48 - JobCargaDimensaoProduto - Finished job entry [Carga Produto] (result=[true])
+2021/06/16 15:51:48 - JobCargaDimensaoProduto - Finished job entry [Carga Marca] (result=[true])
+2021/06/16 15:51:48 - JobCargaDimensaoProduto - Finished job entry [Carga Categoria] (result=[true])
+2021/06/16 15:51:48 - JobCargaDimensoesParalelo - Starting entry [Success]
+2021/06/16 15:51:48 - JobCargaDimensoesParalelo - Finished job entry [Success] (result=[true])
+2021/06/16 15:51:48 - Dimensão Organizacional.0 - Finished processing (I=8, O=0, R=8, W=8, U=2, E=0)
+2021/06/16 15:51:48 - JobCargaDimensaoOrganizacional - Starting entry [Processo 2]
+2021/06/16 15:51:48 - Processo 2 - Using run configuration [Pentaho local]
+2021/06/16 15:51:48 - Processo 2 - Using legacy execution engine
+2021/06/16 15:51:48 - DimensaoOrganizacional_Processo2 - Dispatching started for transformation [DimensaoOrganizacional_Processo2]
+2021/06/16 15:51:48 - Juntando Cliente com Regiões.0 - Finished processing (I=0, O=0, R=66, W=57, U=0, E=0)
+2021/06/16 15:51:48 - Acha o nome do mês.0 - Finished processing (I=0, O=0, R=4012, W=4000, U=0, E=0)
+2021/06/16 15:51:48 - Dimensão Cliente.0 - Finished processing (I=57, O=0, R=57, W=57, U=0, E=0)
+2021/06/16 15:51:48 - JobCargaDimensoesParalelo - Starting entry [Success]
+2021/06/16 15:51:48 - JobCargaDimensoesParalelo - Finished job entry [Success] (result=[true])
+2021/06/16 15:51:48 - Exclui Colunas.0 - Finished processing (I=0, O=0, R=4000, W=4000, U=0, E=0)
+2021/06/16 15:51:48 - Leitura Funcionários Grupo 1.0 - Finished processing (I=8, O=0, R=0, W=8, U=0, E=0)
+2021/06/16 15:51:48 - Inicializa Esquerda Direita Nível.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2021/06/16 15:51:48 - Dimensão Organizacional.0 - Finished processing (I=8, O=0, R=8, W=8, U=4, E=0)
+2021/06/16 15:51:48 - JobCargaDimensaoOrganizacional - Starting entry [Processo 3]
+2021/06/16 15:51:48 - Processo 3 - Using run configuration [Pentaho local]
+2021/06/16 15:51:48 - Processo 3 - Using legacy execution engine
+2021/06/16 15:51:48 - DimensaoOrganizacional_Processo3 - Dispatching started for transformation [DimensaoOrganizacional_Processo3]
+2021/06/16 15:51:48 - Leitura Funcionários Grupo 1.0 - Finished processing (I=8, O=0, R=0, W=8, U=0, E=0)
+2021/06/16 15:51:48 - Inicializa Esquerda Direita Nível.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2021/06/16 15:51:48 - Dimensão Organizacional.0 - Finished processing (I=8, O=0, R=8, W=8, U=8, E=0)
+2021/06/16 15:51:48 - JobCargaDimensaoOrganizacional - Starting entry [Processo 4]
+2021/06/16 15:51:48 - Processo 4 - Using run configuration [Pentaho local]
+2021/06/16 15:51:48 - Processo 4 - Using legacy execution engine
+2021/06/16 15:51:48 - DimensaoOrganizacional_Processo4 - Dispatching started for transformation [DimensaoOrganizacional_Processo4]
+2021/06/16 15:51:48 - Leitura Funcionários Grupo 2.0 - Finished processing (I=4, O=0, R=0, W=4, U=0, E=0)
+2021/06/16 15:51:48 - Inicializa Cod_Pai Esquerda Direita Nível.0 - Finished processing (I=0, O=0, R=4, W=4, U=0, E=0)
+2021/06/16 15:51:48 - Dimensão Organizacional.0 - Finished processing (I=4, O=0, R=4, W=4, U=1, E=0)
+2021/06/16 15:51:48 - JobCargaDimensaoOrganizacional - Starting entry [Processo 5]
+2021/06/16 15:51:49 - Processo 5 - Using run configuration [Pentaho local]
+2021/06/16 15:51:49 - Processo 5 - Using legacy execution engine
+2021/06/16 15:51:49 - DimensaoOrganizacional_Processo5 - Dispatching started for transformation [DimensaoOrganizacional_Processo5]
+2021/06/16 15:51:49 - Leitura Funcionários Grupo 2.0 - Finished processing (I=4, O=0, R=0, W=4, U=0, E=0)
+2021/06/16 15:51:49 - Inicializa Esquerda Direita Nível.0 - Finished processing (I=0, O=0, R=4, W=4, U=0, E=0)
+2021/06/16 15:51:49 - Dimensão Organizacional.0 - Finished processing (I=4, O=0, R=4, W=4, U=4, E=0)
+2021/06/16 15:51:49 - JobCargaDimensaoOrganizacional - Starting entry [Esq Dir Nível]
+2021/06/16 15:51:49 - Esq Dir Nível - Using run configuration [Pentaho local]
+2021/06/16 15:51:49 - Esq Dir Nível - Using legacy execution engine
+2021/06/16 15:51:49 - DimensaoOrganizacional_EsqDirNivel - Dispatching started for transformation [DimensaoOrganizacional_EsqDirNivel]
+2021/06/16 15:51:51 - Gravação da dimensão tempo.0 - Finished processing (I=4000, O=0, R=4000, W=4000, U=4000, E=0)
+2021/06/16 15:51:51 - JobCargaDimensoesParalelo - Starting entry [Success]
+2021/06/16 15:51:51 - JobCargaDimensoesParalelo - Finished job entry [Success] (result=[true])
+2021/06/16 15:52:04 - Inicializa Esq Dir Nível da Dimensão.0 - Finished reading query, closing connection.
+2021/06/16 15:52:04 - Criação das Tabelas Auxiliares.0 - Finished reading query, closing connection.
+2021/06/16 15:52:04 - Criação das Tabelas Auxiliares.0 - Finished processing (I=0, O=0, R=0, W=1, U=0, E=0)
+2021/06/16 15:52:04 - Inicializa Esq Dir Nível da Dimensão.0 - Finished processing (I=0, O=0, R=0, W=1, U=0, E=0)
+2021/06/16 15:52:04 - Leitura da Tabela Auxiliar.0 - Finished reading query, closing connection.
+2021/06/16 15:52:04 - Leitura da Tabela Auxiliar.0 - Finished processing (I=19, O=0, R=0, W=19, U=0, E=0)
+2021/06/16 15:52:04 - Gravação do Esq Dir Nível.0 - Finished processing (I=19, O=0, R=19, W=19, U=19, E=0)
+2021/06/16 15:52:04 - JobCargaDimensaoOrganizacional - Starting entry [Success]
+2021/06/16 15:52:04 - JobCargaDimensaoOrganizacional - Finished job entry [Success] (result=[true])
+2021/06/16 15:52:04 - JobCargaDimensaoOrganizacional - Finished job entry [Esq Dir Nível] (result=[true])
+2021/06/16 15:52:04 - JobCargaDimensaoOrganizacional - Finished job entry [Processo 5] (result=[true])
+2021/06/16 15:52:04 - JobCargaDimensaoOrganizacional - Finished job entry [Processo 4] (result=[true])
+2021/06/16 15:52:04 - JobCargaDimensaoOrganizacional - Finished job entry [Processo 3] (result=[true])
+2021/06/16 15:52:04 - JobCargaDimensaoOrganizacional - Finished job entry [Processo 2] (result=[true])
+2021/06/16 15:52:04 - JobCargaDimensaoOrganizacional - Finished job entry [Processo 1] (result=[true])
+2021/06/16 15:52:04 - JobCargaDimensoesParalelo - Starting entry [Success]
+2021/06/16 15:52:04 - JobCargaDimensoesParalelo - Finished job entry [Success] (result=[true])
+2021/06/16 15:52:04 - jobPrincipal - Starting entry [Carga Fatos]
+2021/06/16 15:52:04 - Carga Fatos - Using run configuration [Pentaho local]
+2021/06/16 15:52:04 - JobFatosParalelo - Starting entry [Carga Todas as Fatos]
+2021/06/16 15:52:04 - Carga Todas as Fatos - Using run configuration [Pentaho local]
+2021/06/16 15:52:04 - Carga Todas as Fatos - Using legacy execution engine
+2021/06/16 15:52:04 - Fato - Dispatching started for transformation [Fato]
+2021/06/16 15:52:05 - Leitura Tabela de Fato 003.0 - Finished reading query, closing connection.
+2021/06/16 15:52:05 - Leitura Tabela de Fato 001.0 - Finished reading query, closing connection.
+2021/06/16 15:52:05 - Leitura Tabela de Fato 003.0 - Finished processing (I=2, O=0, R=0, W=2, U=0, E=0)
+2021/06/16 15:52:05 - Leitura Tabela de Fato 001.0 - Finished processing (I=1502, O=0, R=0, W=1502, U=0, E=0)
+2021/06/16 15:52:05 - Leitura Tabela de Fato 005.0 - Finished reading query, closing connection.
+2021/06/16 15:52:05 - Leitura Tabela de Fato 005.0 - Finished processing (I=62, O=0, R=0, W=62, U=0, E=0)
+2021/06/16 15:52:05 - Leitura Tabela de Fato 004.0 - Finished reading query, closing connection.
+2021/06/16 15:52:05 - Leitura Tabela de Fato 004.0 - Finished processing (I=1239, O=0, R=0, W=1239, U=0, E=0)
+2021/06/16 15:52:05 - Leitura Tabela de Fato 002.0 - Finished reading query, closing connection.
+2021/06/16 15:52:05 - Leitura Tabela de Fato 002.0 - Finished processing (I=1502, O=0, R=0, W=1502, U=0, E=0)
+2021/06/16 15:52:05 - Gravação Tabela de Fato 005.0 - ERROR (version 8.2.0.0-342, build 8.2.0.0-342 from 2018-11-14 10.30.55 by buildguy) : Error in step, asking everyone to stop because of:
+2021/06/16 15:52:05 - Gravação Tabela de Fato 005.0 - ERROR (version 8.2.0.0-342, build 8.2.0.0-342 from 2018-11-14 10.30.55 by buildguy) : org.pentaho.di.core.exception.KettleDatabaseException: 
+2021/06/16 15:52:05 - Gravação Tabela de Fato 005.0 - Error inserting/updating row
+2021/06/16 15:52:05 - Gravação Tabela de Fato 005.0 - Cannot add or update a child row: a foreign key constraint fails (`dwsucos`.`fato_005`, CONSTRAINT `fato_003_fato_005_fk` FOREIGN KEY (`Cod_Fabrica`, `Cod_Tempo`) REFERENCES `fato_003` (`Cod_Fabrica`, `Cod_Tempo`))
+2021/06/16 15:52:05 - Gravação Tabela de Fato 005.0 - 
+2021/06/16 15:52:05 - Gravação Tabela de Fato 005.0 - 	at org.pentaho.di.core.database.Database.insertRow(Database.java:1319)
+2021/06/16 15:52:05 - Gravação Tabela de Fato 005.0 - 	at org.pentaho.di.core.database.Database.insertRow(Database.java:1243)
+2021/06/16 15:52:05 - Gravação Tabela de Fato 005.0 - 	at org.pentaho.di.core.database.Database.insertRow(Database.java:1231)
+2021/06/16 15:52:05 - Gravação Tabela de Fato 005.0 - 	at org.pentaho.di.core.database.Database.insertRow(Database.java:1219)
+2021/06/16 15:52:05 - Gravação Tabela de Fato 005.0 - 	at org.pentaho.di.trans.steps.insertupdate.InsertUpdate.lookupValues(InsertUpdate.java:114)
+2021/06/16 15:52:05 - Gravação Tabela de Fato 005.0 - 	at org.pentaho.di.trans.steps.insertupdate.InsertUpdate.processRow(InsertUpdate.java:299)
+2021/06/16 15:52:05 - Gravação Tabela de Fato 005.0 - 	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+2021/06/16 15:52:05 - Gravação Tabela de Fato 005.0 - 	at java.lang.Thread.run(Thread.java:748)
+2021/06/16 15:52:05 - Gravação Tabela de Fato 005.0 - Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`dwsucos`.`fato_005`, CONSTRAINT `fato_003_fato_005_fk` FOREIGN KEY (`Cod_Fabrica`, `Cod_Tempo`) REFERENCES `fato_003` (`Cod_Fabrica`, `Cod_Tempo`))
+2021/06/16 15:52:05 - Gravação Tabela de Fato 005.0 - 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+2021/06/16 15:52:05 - Gravação Tabela de Fato 005.0 - 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+2021/06/16 15:52:05 - Gravação Tabela de Fato 005.0 - 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+2021/06/16 15:52:05 - Gravação Tabela de Fato 005.0 - 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+2021/06/16 15:52:05 - Gravação Tabela de Fato 005.0 - 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+2021/06/16 15:52:05 - Gravação Tabela de Fato 005.0 - 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+2021/06/16 15:52:05 - Gravação Tabela de Fato 005.0 - 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+2021/06/16 15:52:05 - Gravação Tabela de Fato 005.0 - 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+2021/06/16 15:52:05 - Gravação Tabela de Fato 005.0 - 	at org.pentaho.di.core.database.Database.insertRow(Database.java:1286)
+2021/06/16 15:52:05 - Gravação Tabela de Fato 005.0 - 	... 7 more
+2021/06/16 15:52:05 - Fato - ERROR (version 8.2.0.0-342, build 8.2.0.0-342 from 2018-11-14 10.30.55 by buildguy) : Errors detected!
+2021/06/16 15:52:05 - Gravação Tabela de Fato 005.0 - Finished processing (I=1, O=0, R=1, W=0, U=0, E=1)
+2021/06/16 15:52:05 - Fato - Transformation detected one or more steps with errors.
+2021/06/16 15:52:05 - Fato - Transformation is killing the other steps!
+2021/06/16 15:52:05 - Gravação Tabela de Fato 003.0 - Finished processing (I=2, O=2, R=2, W=1, U=0, E=0)
+2021/06/16 15:52:05 - Gravação Tabela de Fato 004.0 - Finished processing (I=2, O=2, R=2, W=1, U=0, E=0)
+2021/06/16 15:52:05 - Gravação Tabela de Fato 001.0 - Finished processing (I=1, O=1, R=1, W=0, U=0, E=0)
+2021/06/16 15:52:05 - Gravação Tabela de Fato 002.0 - Finished processing (I=1, O=1, R=1, W=0, U=0, E=0)
+2021/06/16 15:52:06 - Fato - ERROR (version 8.2.0.0-342, build 8.2.0.0-342 from 2018-11-14 10.30.55 by buildguy) : Errors detected!
+2021/06/16 15:52:06 - JobFatosParalelo - Starting entry [Mail Fato]
+2021/06/16 15:52:14 - JobFatosParalelo - Starting entry [Abort job]
+2021/06/16 15:52:14 - Abort job - ERROR (version 8.2.0.0-342, build 8.2.0.0-342 from 2018-11-14 10.30.55 by buildguy) : Aborting job.
+2021/06/16 15:52:14 - JobFatosParalelo - Finished job entry [Abort job] (result=[false])
+2021/06/16 15:52:14 - JobFatosParalelo - Finished job entry [Mail Fato] (result=[false])
+2021/06/16 15:52:14 - JobFatosParalelo - Finished job entry [Carga Todas as Fatos] (result=[false])
+2021/06/16 15:52:14 - jobPrincipal - Starting entry [Abort job 2]
+2021/06/16 15:52:14 - Abort job 2 - ERROR (version 8.2.0.0-342, build 8.2.0.0-342 from 2018-11-14 10.30.55 by buildguy) : Aborting job.
+2021/06/16 15:52:14 - jobPrincipal - Finished job entry [Abort job 2] (result=[false])
+2021/06/16 15:52:14 - jobPrincipal - Finished job entry [Carga Fatos] (result=[false])
+2021/06/16 15:52:14 - jobPrincipal - Finished job entry [Carga Dimensões] (result=[false])
+2021/06/16 15:52:14 - jobPrincipal - Finished job entry [Variáveis de Carga] (result=[false])
+2021/06/16 15:52:14 - jobPrincipal - Job execution finished
+2021/06/16 15:52:14 - Kitchen - Finished!
+2021/06/16 15:52:14 - Kitchen - ERROR (version 8.2.0.0-342, build 8.2.0.0-342 from 2018-11-14 10.30.55 by buildguy) : Finished with errors
+2021/06/16 15:52:14 - Kitchen - Start=2021/06/16 15:50:52.085, Stop=2021/06/16 15:52:14.380
+2021/06/16 15:52:14 - Kitchen - Processing ended after 1 minutes and 22 seconds (82 seconds total).
+2021/06/16 15:53:20 - Kitchen - Logging is at level : Basic
+2021/06/16 15:53:20 - Kitchen - Start of run.
+2021/06/16 15:53:20 - RepositoriesMeta - Reading repositories XML file: C:\Users\User\.kettle\repositories.xml
+2021/06/16 15:53:26 - jobPrincipal - Start of job execution
+2021/06/16 15:53:26 - jobPrincipal - Starting entry [Variáveis de Carga]
+2021/06/16 15:53:26 - jobPrincipal - Starting entry [Carga Dimensões]
+2021/06/16 15:53:26 - Carga Dimensões - Using run configuration [Pentaho local]
+2021/06/16 15:53:26 - JobCargaDimensoesParalelo - Starting entry [Carga Fábrica]
+2021/06/16 15:53:26 - JobCargaDimensoesParalelo - Launched job entry [Carga Fábrica] in parallel.
+2021/06/16 15:53:26 - JobCargaDimensoesParalelo - Starting entry [Carga Cliente]
+2021/06/16 15:53:26 - JobCargaDimensoesParalelo - Launched job entry [Carga Cliente] in parallel.
+2021/06/16 15:53:26 - JobCargaDimensoesParalelo - Starting entry [Carga Produto]
+2021/06/16 15:53:26 - JobCargaDimensoesParalelo - Launched job entry [Carga Produto] in parallel.
+2021/06/16 15:53:26 - JobCargaDimensoesParalelo - Starting entry [Carga Organizacional]
+2021/06/16 15:53:26 - JobCargaDimensoesParalelo - Launched job entry [Carga Organizacional] in parallel.
+2021/06/16 15:53:26 - JobCargaDimensoesParalelo - Starting entry [Carga Tempo]
+2021/06/16 15:53:26 - JobCargaDimensoesParalelo - Launched job entry [Carga Tempo] in parallel.
+2021/06/16 15:53:26 - Carga Produto - Using run configuration [Pentaho local]
+2021/06/16 15:53:26 - JobCargaDimensaoProduto - Starting entry [Carga Categoria]
+2021/06/16 15:53:26 - Carga Organizacional - Using run configuration [Pentaho local]
+2021/06/16 15:53:26 - JobCargaDimensaoOrganizacional - Starting entry [Processo 1]
+2021/06/16 15:53:26 - Processo 1 - Using run configuration [Pentaho local]
+2021/06/16 15:53:26 - Processo 1 - Using legacy execution engine
+2021/06/16 15:53:26 - Carga Cliente - Using run configuration [Pentaho local]
+2021/06/16 15:53:27 - Carga Cliente - Using legacy execution engine
+2021/06/16 15:53:27 - Carga Fábrica - Using run configuration [Pentaho local]
+2021/06/16 15:53:27 - Carga Fábrica - Using legacy execution engine
+2021/06/16 15:53:27 - DimensaoOrganizacional_Processo1 - Dispatching started for transformation [DimensaoOrganizacional_Processo1]
+2021/06/16 15:53:27 - DimensaoCliente - Dispatching started for transformation [DimensaoCliente]
+2021/06/16 15:53:27 - DimensaoFabrica - Dispatching started for transformation [DimensaoFabrica]
+2021/06/16 15:53:27 - Carga Categoria - Using run configuration [Pentaho local]
+2021/06/16 15:53:27 - Carga Categoria - Using legacy execution engine
+2021/06/16 15:53:27 - DimensaoProduto_Categoria - Dispatching started for transformation [DimensaoProduto_Categoria]
+2021/06/16 15:53:27 - Carga Tempo - Using run configuration [Pentaho local]
+2021/06/16 15:53:27 - Carga Tempo - Using legacy execution engine
+2021/06/16 15:53:27 - DimensaoTempo - Dispatching started for transformation [DimensaoTempo]
+2021/06/16 15:53:27 - Gerar 4000 linhas.0 - Finished processing (I=0, O=0, R=0, W=4000, U=0, E=0)
+2021/06/16 15:53:27 - Incremento de Dia.0 - Finished processing (I=0, O=0, R=4000, W=4000, U=0, E=0)
+2021/06/16 15:53:27 - Leitura das Regiões.0 - Header row skipped in file 'c:\treinamento\arquivos\REGIOES DOS ESTADOS.csv'
+2021/06/16 15:53:27 - Leitura das Regiões.0 - Finished processing (I=10, O=0, R=0, W=9, U=0, E=0)
+2021/06/16 15:53:27 - Leitua das Categorias.0 - Header row skipped in file 'c:\treinamento\arquivos\MARCAS E CATEGORIAS.csv'
+2021/06/16 15:53:27 - Leitua das Categorias.0 - Finished processing (I=10, O=0, R=0, W=9, U=0, E=0)
+2021/06/16 15:53:27 - Leitura Fábricas.0 - Header row skipped in file 'c:\treinamento\arquivos\Fabricas.txt'
+2021/06/16 15:53:27 - Leitura Fábricas.0 - Finished processing (I=3, O=0, R=0, W=2, U=0, E=0)
+2021/06/16 15:53:27 - Dimensão Fábrica.0 - Finished processing (I=2, O=0, R=2, W=2, U=0, E=0)
+2021/06/16 15:53:27 - Nível Categoria.0 - Finished processing (I=9, O=0, R=9, W=9, U=0, E=0)
+2021/06/16 15:53:27 - JobCargaDimensoesParalelo - Starting entry [Success]
+2021/06/16 15:53:27 - JobCargaDimensoesParalelo - Finished job entry [Success] (result=[true])
+2021/06/16 15:53:27 - JobCargaDimensaoProduto - Starting entry [Carga Marca]
+2021/06/16 15:53:28 - Carga Marca - Using run configuration [Pentaho local]
+2021/06/16 15:53:28 - Carga Marca - Using legacy execution engine
+2021/06/16 15:53:28 - DimensaoProduto_Marca - Dispatching started for transformation [DimensaoProduto_Marca]
+2021/06/16 15:53:28 - Calcula o dia.0 - Finished processing (I=0, O=0, R=4000, W=4000, U=0, E=0)
+2021/06/16 15:53:28 - Leitua das Marcas.0 - Header row skipped in file 'c:\treinamento\arquivos\MARCAS E CATEGORIAS.csv'
+2021/06/16 15:53:28 - Leitua das Marcas.0 - Finished processing (I=10, O=0, R=0, W=9, U=0, E=0)
+2021/06/16 15:53:28 - Agregadores de Tempo.0 - Finished processing (I=0, O=0, R=4000, W=4000, U=0, E=0)
+2021/06/16 15:53:28 - Achar o Semestre da Data.0 - Finished processing (I=0, O=0, R=4000, W=4000, U=0, E=0)
+2021/06/16 15:53:28 - Nível Marca.0 - Finished processing (I=9, O=0, R=9, W=9, U=0, E=0)
+2021/06/16 15:53:28 - Nome do Trimestre.0 - Finished processing (I=0, O=0, R=4000, W=4000, U=0, E=0)
+2021/06/16 15:53:28 - JobCargaDimensaoProduto - Starting entry [Carga Produto]
+2021/06/16 15:53:28 - Nome do Semestre.0 - Finished processing (I=0, O=0, R=4000, W=4000, U=0, E=0)
+2021/06/16 15:53:28 - Carga Produto - Using run configuration [Pentaho local]
+2021/06/16 15:53:28 - Carga Produto - Using legacy execution engine
+2021/06/16 15:53:28 - DimensaoProduto_Produto - Dispatching started for transformation [DimensaoProduto_Produto]
+2021/06/16 15:53:28 - Leitura Funcionários Grupo 1.0 - Finished processing (I=8, O=0, R=0, W=8, U=0, E=0)
+2021/06/16 15:53:28 - Nome dos Meses.0 - Finished processing (I=12, O=0, R=0, W=12, U=0, E=0)
+2021/06/16 15:53:28 - Inicializa Cod_Pai Esquerda Direita Nível.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2021/06/16 15:53:28 - Leitura da Dimensão Produto.0 - Finished processing (I=35, O=0, R=0, W=35, U=0, E=0)
+2021/06/16 15:53:28 - Duplica coluna de descrição.0 - Finished processing (I=0, O=0, R=35, W=35, U=0, E=0)
+2021/06/16 15:53:28 - Split Marca Tamanho e Sabor.0 - Finished processing (I=0, O=0, R=35, W=35, U=0, E=0)
+2021/06/16 15:53:28 - Leitura Planilha de Clientes.0 - Finished processing (I=57, O=0, R=0, W=57, U=0, E=0)
+2021/06/16 15:53:28 - Split Cliente.0 - Finished processing (I=0, O=0, R=57, W=57, U=0, E=0)
+2021/06/16 15:53:28 - Split Endereço.0 - Finished processing (I=0, O=0, R=57, W=57, U=0, E=0)
+2021/06/16 15:53:28 - Dimensão Produto.0 - Finished processing (I=35, O=0, R=35, W=35, U=0, E=0)
+2021/06/16 15:53:28 - Dimensão Organizacional.0 - Finished processing (I=8, O=0, R=8, W=8, U=2, E=0)
+2021/06/16 15:53:28 - Carte - Installing timer to purge stale objects after 1440 minutes.
+2021/06/16 15:53:28 - Carte - Installing timer to purge stale objects after 1440 minutes.
+2021/06/16 15:53:28 - JobCargaDimensaoProduto - Starting entry [Success]
+2021/06/16 15:53:28 - JobCargaDimensaoOrganizacional - Starting entry [Processo 2]
+2021/06/16 15:53:28 - JobCargaDimensaoProduto - Finished job entry [Success] (result=[true])
+2021/06/16 15:53:28 - JobCargaDimensaoProduto - Finished job entry [Carga Produto] (result=[true])
+2021/06/16 15:53:28 - JobCargaDimensaoProduto - Finished job entry [Carga Marca] (result=[true])
+2021/06/16 15:53:28 - JobCargaDimensaoProduto - Finished job entry [Carga Categoria] (result=[true])
+2021/06/16 15:53:28 - JobCargaDimensoesParalelo - Starting entry [Success]
+2021/06/16 15:53:28 - JobCargaDimensoesParalelo - Finished job entry [Success] (result=[true])
+2021/06/16 15:53:28 - Processo 2 - Using run configuration [Pentaho local]
+2021/06/16 15:53:28 - Processo 2 - Using legacy execution engine
+2021/06/16 15:53:28 - DimensaoOrganizacional_Processo2 - Dispatching started for transformation [DimensaoOrganizacional_Processo2]
+2021/06/16 15:53:28 - Juntando Cliente com Regiões.0 - Finished processing (I=0, O=0, R=66, W=57, U=0, E=0)
+2021/06/16 15:53:28 - Dimensão Cliente.0 - Finished processing (I=57, O=0, R=57, W=57, U=0, E=0)
+2021/06/16 15:53:28 - JobCargaDimensoesParalelo - Starting entry [Success]
+2021/06/16 15:53:28 - JobCargaDimensoesParalelo - Finished job entry [Success] (result=[true])
+2021/06/16 15:53:28 - Acha o nome do mês.0 - Finished processing (I=0, O=0, R=4012, W=4000, U=0, E=0)
+2021/06/16 15:53:28 - Exclui Colunas.0 - Finished processing (I=0, O=0, R=4000, W=4000, U=0, E=0)
+2021/06/16 15:53:29 - Leitura Funcionários Grupo 1.0 - Finished processing (I=8, O=0, R=0, W=8, U=0, E=0)
+2021/06/16 15:53:29 - Inicializa Esquerda Direita Nível.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2021/06/16 15:53:29 - Dimensão Organizacional.0 - Finished processing (I=8, O=0, R=8, W=8, U=4, E=0)
+2021/06/16 15:53:29 - JobCargaDimensaoOrganizacional - Starting entry [Processo 3]
+2021/06/16 15:53:29 - Processo 3 - Using run configuration [Pentaho local]
+2021/06/16 15:53:29 - Processo 3 - Using legacy execution engine
+2021/06/16 15:53:29 - DimensaoOrganizacional_Processo3 - Dispatching started for transformation [DimensaoOrganizacional_Processo3]
+2021/06/16 15:53:29 - Leitura Funcionários Grupo 1.0 - Finished processing (I=8, O=0, R=0, W=8, U=0, E=0)
+2021/06/16 15:53:29 - Inicializa Esquerda Direita Nível.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2021/06/16 15:53:29 - Dimensão Organizacional.0 - Finished processing (I=8, O=0, R=8, W=8, U=8, E=0)
+2021/06/16 15:53:29 - JobCargaDimensaoOrganizacional - Starting entry [Processo 4]
+2021/06/16 15:53:29 - Processo 4 - Using run configuration [Pentaho local]
+2021/06/16 15:53:29 - Processo 4 - Using legacy execution engine
+2021/06/16 15:53:29 - DimensaoOrganizacional_Processo4 - Dispatching started for transformation [DimensaoOrganizacional_Processo4]
+2021/06/16 15:53:29 - Leitura Funcionários Grupo 2.0 - Finished processing (I=4, O=0, R=0, W=4, U=0, E=0)
+2021/06/16 15:53:29 - Inicializa Cod_Pai Esquerda Direita Nível.0 - Finished processing (I=0, O=0, R=4, W=4, U=0, E=0)
+2021/06/16 15:53:29 - Dimensão Organizacional.0 - Finished processing (I=4, O=0, R=4, W=4, U=1, E=0)
+2021/06/16 15:53:29 - JobCargaDimensaoOrganizacional - Starting entry [Processo 5]
+2021/06/16 15:53:29 - Processo 5 - Using run configuration [Pentaho local]
+2021/06/16 15:53:29 - Processo 5 - Using legacy execution engine
+2021/06/16 15:53:29 - DimensaoOrganizacional_Processo5 - Dispatching started for transformation [DimensaoOrganizacional_Processo5]
+2021/06/16 15:53:29 - Leitura Funcionários Grupo 2.0 - Finished processing (I=4, O=0, R=0, W=4, U=0, E=0)
+2021/06/16 15:53:29 - Inicializa Esquerda Direita Nível.0 - Finished processing (I=0, O=0, R=4, W=4, U=0, E=0)
+2021/06/16 15:53:29 - Dimensão Organizacional.0 - Finished processing (I=4, O=0, R=4, W=4, U=4, E=0)
+2021/06/16 15:53:29 - JobCargaDimensaoOrganizacional - Starting entry [Esq Dir Nível]
+2021/06/16 15:53:30 - Esq Dir Nível - Using run configuration [Pentaho local]
+2021/06/16 15:53:30 - Esq Dir Nível - Using legacy execution engine
+2021/06/16 15:53:30 - DimensaoOrganizacional_EsqDirNivel - Dispatching started for transformation [DimensaoOrganizacional_EsqDirNivel]
+2021/06/16 15:53:31 - Gravação da dimensão tempo.0 - Finished processing (I=4000, O=0, R=4000, W=4000, U=4000, E=0)
+2021/06/16 15:53:31 - JobCargaDimensoesParalelo - Starting entry [Success]
+2021/06/16 15:53:31 - JobCargaDimensoesParalelo - Finished job entry [Success] (result=[true])
+2021/06/16 15:53:43 - Inicializa Esq Dir Nível da Dimensão.0 - Finished reading query, closing connection.
+2021/06/16 15:53:43 - Criação das Tabelas Auxiliares.0 - Finished reading query, closing connection.
+2021/06/16 15:53:43 - Criação das Tabelas Auxiliares.0 - Finished processing (I=0, O=0, R=0, W=1, U=0, E=0)
+2021/06/16 15:53:43 - Inicializa Esq Dir Nível da Dimensão.0 - Finished processing (I=0, O=0, R=0, W=1, U=0, E=0)
+2021/06/16 15:53:43 - Leitura da Tabela Auxiliar.0 - Finished reading query, closing connection.
+2021/06/16 15:53:43 - Leitura da Tabela Auxiliar.0 - Finished processing (I=19, O=0, R=0, W=19, U=0, E=0)
+2021/06/16 15:53:43 - Gravação do Esq Dir Nível.0 - Finished processing (I=19, O=0, R=19, W=19, U=19, E=0)
+2021/06/16 15:53:43 - JobCargaDimensaoOrganizacional - Starting entry [Success]
+2021/06/16 15:53:43 - JobCargaDimensaoOrganizacional - Finished job entry [Success] (result=[true])
+2021/06/16 15:53:43 - JobCargaDimensaoOrganizacional - Finished job entry [Esq Dir Nível] (result=[true])
+2021/06/16 15:53:43 - JobCargaDimensaoOrganizacional - Finished job entry [Processo 5] (result=[true])
+2021/06/16 15:53:43 - JobCargaDimensaoOrganizacional - Finished job entry [Processo 4] (result=[true])
+2021/06/16 15:53:43 - JobCargaDimensaoOrganizacional - Finished job entry [Processo 3] (result=[true])
+2021/06/16 15:53:43 - JobCargaDimensaoOrganizacional - Finished job entry [Processo 2] (result=[true])
+2021/06/16 15:53:43 - JobCargaDimensaoOrganizacional - Finished job entry [Processo 1] (result=[true])
+2021/06/16 15:53:43 - JobCargaDimensoesParalelo - Starting entry [Success]
+2021/06/16 15:53:43 - JobCargaDimensoesParalelo - Finished job entry [Success] (result=[true])
+2021/06/16 15:53:43 - jobPrincipal - Starting entry [Carga Fatos]
+2021/06/16 15:53:43 - Carga Fatos - Using run configuration [Pentaho local]
+2021/06/16 15:53:43 - JobFatosParalelo - Starting entry [Carga Todas as Fatos]
+2021/06/16 15:53:43 - Carga Todas as Fatos - Using run configuration [Pentaho local]
+2021/06/16 15:53:43 - Carga Todas as Fatos - Using legacy execution engine
+2021/06/16 15:53:43 - Fato - Dispatching started for transformation [Fato]
+2021/06/16 15:53:44 - Leitura Tabela de Fato 003.0 - Finished reading query, closing connection.
+2021/06/16 15:53:44 - Leitura Tabela de Fato 003.0 - Finished processing (I=2, O=0, R=0, W=2, U=0, E=0)
+2021/06/16 15:53:44 - Leitura Tabela de Fato 005.0 - Finished reading query, closing connection.
+2021/06/16 15:53:44 - Leitura Tabela de Fato 005.0 - Finished processing (I=62, O=0, R=0, W=62, U=0, E=0)
+2021/06/16 15:53:44 - Leitura Tabela de Fato 001.0 - Finished reading query, closing connection.
+2021/06/16 15:53:44 - Leitura Tabela de Fato 001.0 - Finished processing (I=1502, O=0, R=0, W=1502, U=0, E=0)
+2021/06/16 15:53:44 - Leitura Tabela de Fato 002.0 - Finished reading query, closing connection.
+2021/06/16 15:53:44 - Leitura Tabela de Fato 002.0 - Finished processing (I=1502, O=0, R=0, W=1502, U=0, E=0)
+2021/06/16 15:53:44 - Leitura Tabela de Fato 004.0 - Finished reading query, closing connection.
+2021/06/16 15:53:44 - Leitura Tabela de Fato 004.0 - Finished processing (I=1239, O=0, R=0, W=1239, U=0, E=0)
+2021/06/16 15:53:44 - Gravação Tabela de Fato 003.0 - Finished processing (I=2, O=0, R=2, W=2, U=0, E=0)
+2021/06/16 15:53:45 - Gravação Tabela de Fato 005.0 - Finished processing (I=62, O=62, R=62, W=62, U=0, E=0)
+2021/06/16 15:54:08 - Gravação Tabela de Fato 002.0 - Finished processing (I=1502, O=1501, R=1502, W=1502, U=0, E=0)
+2021/06/16 15:54:12 - Gravação Tabela de Fato 004.0 - Finished processing (I=1239, O=1237, R=1239, W=1239, U=0, E=0)
+2021/06/16 15:54:13 - Gravação Tabela de Fato 001.0 - Finished processing (I=1502, O=1501, R=1502, W=1502, U=0, E=0)
+2021/06/16 15:54:13 - JobFatosParalelo - Starting entry [Success]
+2021/06/16 15:54:13 - JobFatosParalelo - Finished job entry [Success] (result=[true])
+2021/06/16 15:54:13 - JobFatosParalelo - Finished job entry [Carga Todas as Fatos] (result=[true])
+2021/06/16 15:54:13 - jobPrincipal - Starting entry [Success]
+2021/06/16 15:54:13 - jobPrincipal - Finished job entry [Success] (result=[true])
+2021/06/16 15:54:13 - jobPrincipal - Finished job entry [Carga Fatos] (result=[true])
+2021/06/16 15:54:13 - jobPrincipal - Finished job entry [Carga Dimensões] (result=[true])
+2021/06/16 15:54:13 - jobPrincipal - Finished job entry [Variáveis de Carga] (result=[true])
+2021/06/16 15:54:13 - jobPrincipal - Job execution finished
+2021/06/16 15:54:13 - Kitchen - Finished!
+2021/06/16 15:54:13 - Kitchen - Start=2021/06/16 15:53:20.703, Stop=2021/06/16 15:54:13.125
+2021/06/16 15:54:13 - Kitchen - Processing ended after 52 seconds.

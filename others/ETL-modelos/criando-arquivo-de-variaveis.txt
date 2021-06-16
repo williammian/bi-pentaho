@@ -1,0 +1,7 @@
+Criando arquivos de variáveis
+
+C:\Users\User\.kettle
+
+
+diretorio=c:\\treinamento\\arquivos\\
+banco=dwsucos

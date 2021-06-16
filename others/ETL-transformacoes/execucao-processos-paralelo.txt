@@ -1,0 +1,4 @@
+Quando um job executa processos em paralelo?
+
+Basta que haja vários hops com o mesmo status (verde ou vermelho), 
+selecionar a opção Run Next Entries in Parallel, e que saiam de um passo qualquer.

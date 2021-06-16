@@ -1,0 +1,4 @@
+Qual é diferença entre job e transformação?
+
+Transformação executa uma série de passos para deslocar o fluxo de dados entre uma origem e destino, 
+e o job executa estas transformações e também outros jobs.
