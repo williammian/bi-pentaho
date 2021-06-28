@@ -1,0 +1,12 @@
+
+Slowly changing dimension - Tipo 1
+
+Não preservar o histórico: O passado muda quando muda a dimensão.
+
+
+----------------------------------------
+
+
+Slowly changing dimension - Tipo 2
+
+Preservar o histórico: O passado não muda quando muda a dimensão.
