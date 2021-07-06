@@ -1,0 +1,5 @@
+SELECT
+NON EMPTY {[Measures].[Faturamento], [Measures].[Margem]} ON COLUMNS,
+NON EMPTY {[Tempo.Calendario].[2013], [Tempo.Calendario].[2014]} ON ROWS
+FROM [dmpresidencia]
+WHERE {[Fabrica].[001]}

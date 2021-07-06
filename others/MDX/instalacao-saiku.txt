@@ -1,0 +1,17 @@
+Baixar Saiku Analytics
+
+https://sourceforge.net/projects/argum/files/assets/saiku-plugin-p7.1-3.90.zip/download
+
+Baixar License.lic
+
+https://github.com/ambientelivre/saiku-fix/blob/main/saiku-fix-pentaho-8/saiku/license.lic
+
+-----------------------------------
+
+Copie o ZIP do plugin baixado acima para dentro do diretório C:\treinamento\pentaho-server\pentaho-solutions\system.
+
+Descompacte o ZIP e delete-o. Verifique se foi criado o diretório \saiku.
+
+Coloque o arquivo license.lic na pasta
+C:\treinamento\pentaho-server\pentaho-solutions\system\saiku
+
