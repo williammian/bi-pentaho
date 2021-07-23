@@ -1,0 +1,3 @@
+    <Table name="fato_presidencia">
+        <AggName name="agg_ano_fat" ignorecase="true"> </AggName> 
+    </Table>

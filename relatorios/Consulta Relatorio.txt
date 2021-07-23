@@ -1,0 +1,24 @@
+SELECT
+     CONCAT(`dim_tempo`.`Nome_Mes`,'-',`dim_tempo`.`Numero_Ano`) as MesAno,
+     CONCAT(`dim_tempo`.`Numero_Ano`,'-'
+	  ,CASE WHEN `dim_tempo`.`Numero_Mes` <= 9 THEN '0' ELSE '' END
+	  , `dim_tempo`.`Numero_Mes`) as CodMesAno,
+     `dim_tempo`.`Numero_Ano`,
+     `dim_tempo`.`Numero_Mes`,
+     `dim_produto`.`Desc_Marca`,
+     `dim_produto`.`Desc_Produto`,
+     sum(`fato_presidencia`.`Faturamento`) as Faturamento,
+     sum(`fato_presidencia`.`Unidade_Vendida`) as Unidades
+FROM
+     `dim_produto` INNER JOIN `fato_presidencia` ON `dim_produto`.`ID_Produto` = `fato_presidencia`.`ID_Produto`
+     INNER JOIN `dim_tempo` ON `fato_presidencia`.`ID_Tempo` = `dim_tempo`.`ID_Tempo`
+GROUP BY
+      CONCAT(`dim_tempo`.`Numero_Ano`,'-'
+	  ,CASE WHEN `dim_tempo`.`Numero_Mes` <= 9 THEN '0' ELSE '' END
+	  , `dim_tempo`.`Numero_Mes`),
+     CONCAT(`dim_tempo`.`Nome_Mes`,'-',`dim_tempo`.`Numero_Ano`),
+     `dim_tempo`.`Numero_Ano`,
+     `dim_tempo`.`Numero_Mes`,
+     `dim_produto`.`Desc_Marca`,
+     `dim_produto`.`Desc_Produto`
+     

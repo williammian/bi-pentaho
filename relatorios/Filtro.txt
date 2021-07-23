@@ -1,0 +1,6 @@
+SELECT
+DISTINCT 
+     `dim_produto`.`Desc_Marca`
+FROM 
+     `dim_produto` 
+ORDER BY 1

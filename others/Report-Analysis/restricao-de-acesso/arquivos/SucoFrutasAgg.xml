@@ -1,6 +1,6 @@
-<Schema name="SucoFrutas" description="Esquema dos Data Marts da empresa Suco de Frutas">
+<Schema name="SucoFrutas" description="Esquema dos Data Marts da empresa de Suco de Frutas">
   <Dimension type="TimeDimension" visible="true" highCardinality="false" name="Tempo">
-    <Hierarchy name="Calendario" visible="true" hasAll="true" allMemberName="Total Calendario" allMemberCaption="Total Calend&#225;rio" primaryKey="ID_Tempo" caption="Calend&#225;rio">
+    <Hierarchy name="Calendario" visible="true" hasAll="true" allMemberName="Total Calendario" allMemberCaption="Total Calend&#225;rio" primaryKey="id_tempo" caption="Calend&#225;rio">
       <Table name="dim_tempo">
       </Table>
       <Level name="Ano" visible="true" column="Numero_Ano" type="String" uniqueMembers="false" levelType="TimeYears" hideMemberIf="Never">
@@ -50,7 +50,7 @@
       <Level name="Cliente" visible="true" column="Cod_Cliente" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never" caption="Cliente" description="Cliente" captionColumn="Desc_Cliente">
       </Level>
     </Hierarchy>
-    <Hierarchy name="Segmento" visible="true" hasAll="true" allMemberName="Todos os Segmentos" primaryKey="Id_Cliente" description="Segmento">
+    <Hierarchy name="Segmento" visible="true" hasAll="true" allMemberCaption="Todos os Segmentos" primaryKey="Id_Cliente" description="Segmento">
       <Table name="Dim_Cliente">
       </Table>
       <Level name="Segmento" visible="true" column="Cod_Segmento" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never" caption="Segmento" description="Segmento" captionColumn="Desc_Segmento">
@@ -63,7 +63,7 @@
       </Table>
       <Level name="Diretor" visible="true" column="Cod_Diretor" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never" caption="Diretor" description="Diretor" captionColumn="Desc_Diretor">
       </Level>
-      <Level name="Gerente" visible="true" column="Cod_Gerente" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never" caption="Gerente" description="Gerente" captionColumn="Desc_Gerente">
+      <Level name="Gerente" visible="true" column="Cod|_Gerente" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never" caption="Gerente" description="Gerente" captionColumn="Desc_Gerente">
       </Level>
       <Level name="Vendedor" visible="true" column="Cod_Vendedor" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never" caption="Vendedor" description="Vendedor" captionColumn="Desc_Vendedor">
       </Level>
@@ -82,11 +82,11 @@
       <AggName name="agg_ano_fat" ignorecase="true">
         <AggFactCount column="ContadorLinha">
         </AggFactCount>
-        <AggForeignKey factColumn="ID_Fabrica" aggColumn="ID_Fabrica">
-        </AggForeignKey>
-        <AggForeignKey factColumn="ID_VENDEDOR" aggColumn="ID_Vendedor">
+        <AggForeignKey factColumn="ID_Vendedor" aggColumn="ID_Vendedor">
         </AggForeignKey>
         <AggForeignKey factColumn="ID_Cliente" aggColumn="ID_Cliente">
+        </AggForeignKey>
+        <AggForeignKey factColumn="ID_Fabrica" aggColumn="ID_Fabrica">
         </AggForeignKey>
         <AggForeignKey factColumn="ID_Produto" aggColumn="ID_Produto">
         </AggForeignKey>
@@ -96,15 +96,15 @@
         </AggLevel>
       </AggName>
     </Table>
-    <DimensionUsage source="Tempo" name="Tempo" visible="true" foreignKey="ID_TEMPO" highCardinality="false">
+    <DimensionUsage source="Tempo" name="Tempo" visible="true" foreignKey="ID_Tempo" highCardinality="false">
     </DimensionUsage>
     <DimensionUsage source="Produto" name="Produto" visible="true" foreignKey="ID_Produto" highCardinality="false">
     </DimensionUsage>
     <DimensionUsage source="Cliente" name="Cliente" visible="true" foreignKey="ID_Cliente" highCardinality="false">
     </DimensionUsage>
-    <DimensionUsage source="Organizacional" name="Organizacional" visible="true" foreignKey="ID_VENDEDOR" highCardinality="false">
+    <DimensionUsage source="Organizacional" name="Organizacional" visible="true" foreignKey="ID_Vendedor" highCardinality="false">
     </DimensionUsage>
-    <DimensionUsage source="Fabrica" name="Fabrica" caption="F&#225;brica" visible="true" foreignKey="ID_Fabrica" highCardinality="false">
+    <DimensionUsage source="Fabrica" name="F&#225;brica" caption="F&#225;brica" visible="true" foreignKey="ID_Fabrica" highCardinality="false">
     </DimensionUsage>
     <Measure name="Faturamento" column="Faturamento" datatype="Numeric" formatString="#,###.00" aggregator="sum" caption="Faturamento" description="Faturamento em R$" visible="true">
     </Measure>
@@ -112,7 +112,7 @@
     </Measure>
     <Measure name="Custo Fixo" column="Custo_Fixo" datatype="Numeric" formatString="#,###.00" aggregator="sum" caption="Custo Fixo" description="Custo Fixo em R$" visible="true">
     </Measure>
-    <Measure name="Custo Variavel" column="Custo_Variavel" datatype="Numeric" formatString="#,###.00" aggregator="sum" caption="Custo Vari&#225;vel" description="Custo Variavel em R$" visible="true">
+    <Measure name="Custo Variavel" column="Custo_Variavel" datatype="Numeric" formatString="#,###.00" aggregator="sum" caption="Custo vari&#225;vel" description="Custo Variavel em R$" visible="true">
     </Measure>
     <Measure name="Imposto" column="Imposto" datatype="Numeric" formatString="#,###.00" aggregator="sum" caption="Imposto" description="Imposto em R$" visible="true">
     </Measure>
@@ -141,10 +141,6 @@
     <SchemaGrant access="all">
     </SchemaGrant>
   </Role>
-  <Role name="Authenticated">
-    <SchemaGrant access="none">
-    </SchemaGrant>
-  </Role>
   <Role name="Sudeste">
     <SchemaGrant access="all_dimensions">
       <CubeGrant cube="dmpresidencia" access="all">
@@ -153,6 +149,10 @@
           </MemberGrant>
         </HierarchyGrant>
       </CubeGrant>
+    </SchemaGrant>
+  </Role>
+  <Role name="Authenticated">
+    <SchemaGrant access="none">
     </SchemaGrant>
   </Role>
 </Schema>

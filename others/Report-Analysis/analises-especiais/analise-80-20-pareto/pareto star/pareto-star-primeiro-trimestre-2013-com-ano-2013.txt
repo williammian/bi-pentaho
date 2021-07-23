@@ -1,0 +1,67 @@
+WITH 
+
+MEMBER [Measures].[Faturamento Periodo 1] AS
+'([Measures].[Faturamento], 
+[Tempo.Calendario].[2013].[Primeiro Semestre].[Primeiro Trimestre])'
+, FORMAT_STRING = "#,###.00"
+
+SET [CIDADES] AS
+'ORDER({[Cliente].[Cidade].Members},
+ [Measures].[Faturamento Periodo 1], BDESC)'
+
+MEMBER [Measures].[Rank] AS
+'RANK (
+[Cliente].[Cidade].Currentmember
+,[CIDADES])' 
+, FORMAT_STRING = '#;#;-'
+
+MEMBER [Measures].[% Participação] AS
+'[Measures].[Faturamento Periodo 1]/
+([Measures].[Faturamento Periodo 1], [Cliente].[Todos os Clientes])'
+, FORMAT_STRING = "#,###.00 %"
+
+MEMBER [Measures].[Faturamento Acumulado] AS
+'Sum (Head ([CIDADES], Rank ([Cliente].[Cidade].Currentmember,
+[CIDADES] ) ), [Measures].[Faturamento Periodo 1]
+)', FORMAT_STRING = "#,###.00"
+
+MEMBER [Measures].[Membros Total] AS
+'([Cliente].[Cidade].Members.Count)' 
+, FORMAT_STRING = '#;#;-'
+
+MEMBER [Measures].[% Membro] AS
+'[Measures].[Rank]/[Measures].[Membros Total]'
+, FORMAT_STRING = "#,###.00 %"
+
+MEMBER [Measures].[% Part Acumulado Periodo 1] AS
+'Sum (Head ([CIDADES], Rank ([Cliente].[Cidade].Currentmember,
+[CIDADES] ) ),
+[Measures].[% Participação] 
+)', FORMAT_STRING = "#,###.00 %"
+
+MEMBER [Measures].[Faturamento Periodo 2] AS
+'([Measures].[Faturamento], [Tempo.Calendario].[2013])', FORMAT_STRING = "#,###.00"
+
+MEMBER [Measures].[Faturamento Acumulado Periodo 2] AS
+'Sum (Head
+([CIDADES],Rank([Cliente].[Cidade].Currentmember,
+[CIDADES])),[Measures].[Faturamento Periodo 2] 
+)', FORMAT_STRING = "#,###.00"
+
+MEMBER [Measures].[% Participação Periodo 2] AS
+'[Measures].[Faturamento Periodo 2] /
+([Measures].[Faturamento Periodo 2] , [Cliente].[Todos os Clientes])'
+, FORMAT_STRING = "#,###.00 %"
+
+MEMBER [Measures].[% Part Acumulado Periodo 2] AS
+'Sum (Head
+([CIDADES],Rank([Cliente].[Cidade].Currentmember,
+[CIDADES])),[Measures].[% Participação Periodo 2] 
+)', FORMAT_STRING = "#,###.00 %"
+
+SELECT
+NON EMPTY {[Measures].[Faturamento Periodo 1],
+ [Measures].[% Part Acumulado Periodo 1], [Measures].[% Membro],
+ [Measures].[% Part Acumulado Periodo 2]} ON COLUMNS,
+NON EMPTY {[CIDADES]} ON ROWS
+FROM [dmpresidencia]
