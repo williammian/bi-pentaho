@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:ExportManifest xmlns:ns2="http://www.pentaho.com/schema/">
+    <ExportManifestInformation exportDate="12-08-2021 03:36:07 BRT" exportBy="admin" rootFolder="/public/sucos/" manifestVersion="2"/>
+    <ExportManifestEntity path="relatorios">
+        <ExportManifestProperty>
+            <EntityMetaData name="relatorios" createdDate="2021-06-29T14:03:20.869-03:00" isFolder="true" path="relatorios" isHidden="false" isSchedulable="true" locale="pt_BR" description="Relatórios da empresa de Suco de Frutas." title="Relatórios"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="relatorios/Relatorio de Faturamento por Marcas e Produtos V2.prpt">
+        <ExportManifestProperty>
+            <EntityMetaData name="Relatorio de Faturamento por Marcas e Produtos V2.prpt" createdDate="2021-07-21T17:09:29.108-03:00" isFolder="false" path="relatorios/Relatorio de Faturamento por Marcas e Produtos V2.prpt" isHidden="false" isSchedulable="true" locale="pt_BR" title="Relatório de Faturamento por Marcas e Produtos"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="relatorios/Relatorio de Faturamento por Marcas e Produtos V3.prpt">
+        <ExportManifestProperty>
+            <EntityMetaData name="Relatorio de Faturamento por Marcas e Produtos V3.prpt" createdDate="2021-07-23T13:05:23.762-03:00" isFolder="false" path="relatorios/Relatorio de Faturamento por Marcas e Produtos V3.prpt" isHidden="false" isSchedulable="true" locale="pt_BR" title="Relatório de Faturamento por Marcas e Produtos com Filtro"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="relatorios/Relatorio de Faturamento por Marcas e Produtos V4.prpt">
+        <ExportManifestProperty>
+            <EntityMetaData name="Relatorio de Faturamento por Marcas e Produtos V4.prpt" createdDate="2021-07-23T15:57:29.666-03:00" isFolder="false" path="relatorios/Relatorio de Faturamento por Marcas e Produtos V4.prpt" isHidden="false" isSchedulable="true" locale="pt_BR" title="Relatório de Faturamento por Marcas e Produtos Filtro Marca e Ano"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="relatorios/Relatório Agendado 2.pdf">
+        <ExportManifestProperty>
+            <EntityMetaData name="Relatório Agendado 2.pdf" createdDate="2021-07-23T16:12:02.433-03:00" createdBy="e392d586-42c7-48ec-9384-5f4451dd08de" isFolder="false" path="relatorios/Relatório Agendado 2.pdf" isHidden="false" isSchedulable="true" locale="pt_BR" title="Relatório Agendado 2.pdf"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="relatorios/Relatório Agendado.pdf">
+        <ExportManifestProperty>
+            <EntityMetaData name="Relatório Agendado.pdf" createdDate="2021-07-23T16:09:04.919-03:00" createdBy="e392d586-42c7-48ec-9384-5f4451dd08de" isFolder="false" path="relatorios/Relatório Agendado.pdf" isHidden="false" isSchedulable="true" locale="pt_BR" title="Relatório Agendado.pdf"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+</ns2:ExportManifest>

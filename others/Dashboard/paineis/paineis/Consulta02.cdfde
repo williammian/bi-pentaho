@@ -1,0 +1,37 @@
+{
+  "components" : {
+    "rows" : [ ]
+  },
+  "datasources" : {
+    "rows" : [ ]
+  },
+  "filename" : "/public/sucos/paineis/Consulta02.cdfde",
+  "layout" : {
+    "rows" : [
+      {
+        "id" : "e13178df-a9b4-387c-67c5-df4d0248f451",
+        "type" : "LayoutResourceFile",
+        "typeDesc" : "Resource",
+        "parent" : "UnIqEiD",
+        "properties" : [
+          {
+            "name" : "name",
+            "value" : "cssDashboard",
+            "type" : "Id"
+          },
+          {
+            "name" : "resourceFile",
+            "value" : "${solution:formato.css}",
+            "type" : "ResourceFile"
+          },
+          {
+            "name" : "resourceType",
+            "value" : "Css",
+            "type" : "Label"
+          }
+        ]
+      }
+    ],
+    "title" : "CDF - Sample structure"
+  }
+}

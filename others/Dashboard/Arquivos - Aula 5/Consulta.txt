@@ -1,0 +1,11 @@
+
+WITH
+SET [~FILTER] AS
+    {[Tempo.Calendario].[2013]}
+SET [~ROWS] AS
+    Order({[Cliente].[Estado].Members}, [Measures].[Faturamento], BDESC)
+SELECT
+NON EMPTY {[Measures].[Faturamento]} ON COLUMNS,
+NON EMPTY [~ROWS] ON ROWS
+FROM [dmpresidencia]
+WHERE [~FILTER]

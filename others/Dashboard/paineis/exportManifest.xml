@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:ExportManifest xmlns:ns2="http://www.pentaho.com/schema/">
+    <ExportManifestInformation exportDate="12-08-2021 03:33:37 BRT" exportBy="admin" rootFolder="/public/sucos/" manifestVersion="2"/>
+    <ExportManifestEntity path="paineis">
+        <ExportManifestProperty>
+            <EntityMetaData name="paineis" createdDate="2021-06-29T14:03:20.842-03:00" isFolder="true" path="paineis" isHidden="false" isSchedulable="true" locale="pt_BR" description="Painéis da empresa de Suco de Frutas." title="Painéis"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta01.cda">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta01.cda" createdDate="2021-07-26T08:47:53.273-03:00" isFolder="false" path="paineis/Consulta01.cda" isHidden="false" isSchedulable="true" locale="pt_BR" title="Consulta01.cda"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta01.cdfde">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta01.cdfde" createdDate="2021-07-26T08:47:53.165-03:00" isFolder="false" path="paineis/Consulta01.cdfde" isHidden="false" isSchedulable="true" locale="pt_BR" title="Consulta01.cdfde"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta01.wcdf">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta01.wcdf" createdDate="2021-07-26T08:47:53.095-03:00" isFolder="false" path="paineis/Consulta01.wcdf" isHidden="false" isSchedulable="true" locale="pt_BR" description="Consulta01" title="Consulta01"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta02.cdfde">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta02.cdfde" createdDate="2021-07-29T13:04:03.218-03:00" isFolder="false" path="paineis/Consulta02.cdfde" isHidden="false" isSchedulable="true" locale="pt_BR" title="Consulta02.cdfde"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta02.wcdf">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta02.wcdf" createdDate="2021-07-29T13:04:03.167-03:00" isFolder="false" path="paineis/Consulta02.wcdf" isHidden="false" isSchedulable="true" locale="pt_BR" description="Consulta02" title="Consulta02"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta02_A.cdfde">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta02_A.cdfde" createdDate="2021-07-30T08:34:55.027-03:00" isFolder="false" path="paineis/Consulta02_A.cdfde" isHidden="false" isSchedulable="true" locale="pt_BR" title="Consulta02_A.cdfde"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta02_A.wcdf">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta02_A.wcdf" createdDate="2021-07-30T08:34:54.979-03:00" isFolder="false" path="paineis/Consulta02_A.wcdf" isHidden="false" isSchedulable="true" locale="pt_BR" description="Consulta02_A" title="Consulta02_A"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta02_B.cda">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta02_B.cda" createdDate="2021-07-30T09:54:59.374-03:00" isFolder="false" path="paineis/Consulta02_B.cda" isHidden="false" isSchedulable="true" locale="pt_BR" title="Consulta02_B.cda"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta02_B.cdfde">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta02_B.cdfde" createdDate="2021-07-30T09:54:59.239-03:00" isFolder="false" path="paineis/Consulta02_B.cdfde" isHidden="false" isSchedulable="true" locale="pt_BR" title="Consulta02_B.cdfde"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta02_B.wcdf">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta02_B.wcdf" createdDate="2021-07-30T09:54:59.121-03:00" isFolder="false" path="paineis/Consulta02_B.wcdf" isHidden="false" isSchedulable="true" locale="pt_BR" description="Consulta02_B" title="Consulta02_B"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta02_C.cda">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta02_C.cda" createdDate="2021-07-30T14:09:05.034-03:00" isFolder="false" path="paineis/Consulta02_C.cda" isHidden="false" isSchedulable="true" locale="pt_BR" title="Consulta02_C.cda"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta02_C.cdfde">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta02_C.cdfde" createdDate="2021-07-30T14:09:04.982-03:00" isFolder="false" path="paineis/Consulta02_C.cdfde" isHidden="false" isSchedulable="true" locale="pt_BR" title="Consulta02_C.cdfde"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta02_C.wcdf">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta02_C.wcdf" createdDate="2021-07-30T14:09:04.649-03:00" isFolder="false" path="paineis/Consulta02_C.wcdf" isHidden="false" isSchedulable="true" locale="pt_BR" description="Consulta02_C" title="Consulta02_C"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta02_D.cda">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta02_D.cda" createdDate="2021-08-06T17:08:06.485-03:00" isFolder="false" path="paineis/Consulta02_D.cda" isHidden="false" isSchedulable="true" locale="pt_BR" title="Consulta02_D.cda"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta02_D.cdfde">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta02_D.cdfde" createdDate="2021-08-06T17:08:06.355-03:00" isFolder="false" path="paineis/Consulta02_D.cdfde" isHidden="false" isSchedulable="true" locale="pt_BR" title="Consulta02_D.cdfde"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta02_D.wcdf">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta02_D.wcdf" createdDate="2021-08-06T17:08:06.309-03:00" isFolder="false" path="paineis/Consulta02_D.wcdf" isHidden="false" isSchedulable="true" locale="pt_BR" description="Consulta02_D" title="Consulta02_D"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta02_E.cda">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta02_E.cda" createdDate="2021-08-09T11:01:13.594-03:00" isFolder="false" path="paineis/Consulta02_E.cda" isHidden="false" isSchedulable="true" locale="pt_BR" title="Consulta02_E.cda"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta02_E.cdfde">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta02_E.cdfde" createdDate="2021-08-09T11:01:13.458-03:00" isFolder="false" path="paineis/Consulta02_E.cdfde" isHidden="false" isSchedulable="true" locale="pt_BR" title="Consulta02_E.cdfde"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta02_E.wcdf">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta02_E.wcdf" createdDate="2021-08-09T11:01:13.391-03:00" isFolder="false" path="paineis/Consulta02_E.wcdf" isHidden="false" isSchedulable="true" locale="pt_BR" description="Consulta02_E" title="Consulta02_E"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta03_A.cda">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta03_A.cda" createdDate="2021-08-09T11:16:59.644-03:00" isFolder="false" path="paineis/Consulta03_A.cda" isHidden="false" isSchedulable="true" locale="pt_BR" title="Consulta03_A.cda"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta03_A.cdfde">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta03_A.cdfde" createdDate="2021-08-09T11:16:59.598-03:00" isFolder="false" path="paineis/Consulta03_A.cdfde" isHidden="false" isSchedulable="true" locale="pt_BR" title="Consulta03_A.cdfde"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta03_A.wcdf">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta03_A.wcdf" createdDate="2021-08-09T11:16:59.522-03:00" isFolder="false" path="paineis/Consulta03_A.wcdf" isHidden="false" isSchedulable="true" locale="pt_BR" description="Consulta03_A" title="Consulta03_A"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta03_B.cda">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta03_B.cda" createdDate="2021-08-09T12:32:24.124-03:00" isFolder="false" path="paineis/Consulta03_B.cda" isHidden="false" isSchedulable="true" locale="pt_BR" title="Consulta03_B.cda"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta03_B.cdfde">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta03_B.cdfde" createdDate="2021-08-09T12:32:24.058-03:00" isFolder="false" path="paineis/Consulta03_B.cdfde" isHidden="false" isSchedulable="true" locale="pt_BR" title="Consulta03_B.cdfde"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta03_B.wcdf">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta03_B.wcdf" createdDate="2021-08-09T12:32:23.973-03:00" isFolder="false" path="paineis/Consulta03_B.wcdf" isHidden="false" isSchedulable="true" locale="pt_BR" description="Consulta03_B" title="Consulta03_B"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta03_C.cda">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta03_C.cda" createdDate="2021-08-09T15:42:37.590-03:00" isFolder="false" path="paineis/Consulta03_C.cda" isHidden="false" isSchedulable="true" locale="pt_BR" title="Consulta03_C.cda"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta03_C.cdfde">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta03_C.cdfde" createdDate="2021-08-09T15:42:37.518-03:00" isFolder="false" path="paineis/Consulta03_C.cdfde" isHidden="false" isSchedulable="true" locale="pt_BR" title="Consulta03_C.cdfde"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta03_C.wcdf">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta03_C.wcdf" createdDate="2021-08-09T15:42:37.431-03:00" isFolder="false" path="paineis/Consulta03_C.wcdf" isHidden="false" isSchedulable="true" locale="pt_BR" description="Consulta03_C" title="Consulta03_C"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta03_D.cda">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta03_D.cda" createdDate="2021-08-09T15:50:20.407-03:00" isFolder="false" path="paineis/Consulta03_D.cda" isHidden="false" isSchedulable="true" locale="pt_BR" title="Consulta03_D.cda"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta03_D.cdfde">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta03_D.cdfde" createdDate="2021-08-09T15:50:20.342-03:00" isFolder="false" path="paineis/Consulta03_D.cdfde" isHidden="false" isSchedulable="true" locale="pt_BR" title="Consulta03_D.cdfde"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta03_D.wcdf">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta03_D.wcdf" createdDate="2021-08-09T15:50:20.267-03:00" isFolder="false" path="paineis/Consulta03_D.wcdf" isHidden="false" isSchedulable="true" locale="pt_BR" description="Consulta03_D" title="Consulta03_D"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta04_A.cda">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta04_A.cda" createdDate="2021-08-09T17:05:06.926-03:00" isFolder="false" path="paineis/Consulta04_A.cda" isHidden="false" isSchedulable="true" locale="pt_BR" title="Consulta04_A.cda"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta04_A.cdfde">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta04_A.cdfde" createdDate="2021-08-09T16:33:30.801-03:00" isFolder="false" path="paineis/Consulta04_A.cdfde" isHidden="false" isSchedulable="true" locale="pt_BR" title="Consulta04_A.cdfde"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta04_A.wcdf">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta04_A.wcdf" createdDate="2021-08-09T16:33:30.721-03:00" isFolder="false" path="paineis/Consulta04_A.wcdf" isHidden="false" isSchedulable="true" locale="pt_BR" description="Consulta04_A" title="Consulta04_A"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta04_B.cda">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta04_B.cda" createdDate="2021-08-09T17:05:36.624-03:00" isFolder="false" path="paineis/Consulta04_B.cda" isHidden="false" isSchedulable="true" locale="pt_BR" title="Consulta04_B.cda"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta04_B.cdfde">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta04_B.cdfde" createdDate="2021-08-09T16:51:17.968-03:00" isFolder="false" path="paineis/Consulta04_B.cdfde" isHidden="false" isSchedulable="true" locale="pt_BR" title="Consulta04_B.cdfde"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta04_B.wcdf">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta04_B.wcdf" createdDate="2021-08-09T16:51:17.723-03:00" isFolder="false" path="paineis/Consulta04_B.wcdf" isHidden="false" isSchedulable="true" locale="pt_BR" description="Consulta04_B" title="Consulta04_B"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta06_A.cda">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta06_A.cda" createdDate="2021-08-10T14:11:11.696-03:00" isFolder="false" path="paineis/Consulta06_A.cda" isHidden="false" isSchedulable="true" locale="pt_BR" title="Consulta06_A.cda"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta06_A.cdfde">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta06_A.cdfde" createdDate="2021-08-10T12:41:38.610-03:00" isFolder="false" path="paineis/Consulta06_A.cdfde" isHidden="false" isSchedulable="true" locale="pt_BR" title="Consulta06_A.cdfde"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta06_A.wcdf">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta06_A.wcdf" createdDate="2021-08-10T12:41:38.539-03:00" isFolder="false" path="paineis/Consulta06_A.wcdf" isHidden="false" isSchedulable="true" locale="pt_BR" description="Consulta06_A" title="Consulta06_A"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta06_A_P1.cdfde">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta06_A_P1.cdfde" createdDate="2021-08-10T12:48:00.637-03:00" isFolder="false" path="paineis/Consulta06_A_P1.cdfde" isHidden="false" isSchedulable="true" locale="pt_BR" title="Consulta06_A_P1.cdfde"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta06_A_P1.wcdf">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta06_A_P1.wcdf" createdDate="2021-08-10T12:48:00.566-03:00" isFolder="false" path="paineis/Consulta06_A_P1.wcdf" isHidden="false" isSchedulable="true" locale="pt_BR" description="Consulta06_A_P1" title="Consulta06_A_P1"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta06_A_P2.cda">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta06_A_P2.cda" createdDate="2021-08-10T13:03:50.786-03:00" isFolder="false" path="paineis/Consulta06_A_P2.cda" isHidden="false" isSchedulable="true" locale="pt_BR" title="Consulta06_A_P2.cda"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta06_A_P2.cdfde">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta06_A_P2.cdfde" createdDate="2021-08-10T12:59:11.788-03:00" isFolder="false" path="paineis/Consulta06_A_P2.cdfde" isHidden="false" isSchedulable="true" locale="pt_BR" title="Consulta06_A_P2.cdfde"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta06_A_P2.wcdf">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta06_A_P2.wcdf" createdDate="2021-08-10T12:59:11.722-03:00" isFolder="false" path="paineis/Consulta06_A_P2.wcdf" isHidden="false" isSchedulable="true" locale="pt_BR" description="Consulta06_A_P2" title="Consulta06_A_P2"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta06_A_P3.cda">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta06_A_P3.cda" createdDate="2021-08-10T13:24:18.410-03:00" isFolder="false" path="paineis/Consulta06_A_P3.cda" isHidden="false" isSchedulable="true" locale="pt_BR" title="Consulta06_A_P3.cda"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta06_A_P3.cdfde">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta06_A_P3.cdfde" createdDate="2021-08-10T13:24:18.359-03:00" isFolder="false" path="paineis/Consulta06_A_P3.cdfde" isHidden="false" isSchedulable="true" locale="pt_BR" title="Consulta06_A_P3.cdfde"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta06_A_P3.wcdf">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta06_A_P3.wcdf" createdDate="2021-08-10T13:24:18.296-03:00" isFolder="false" path="paineis/Consulta06_A_P3.wcdf" isHidden="false" isSchedulable="true" locale="pt_BR" description="Consulta06_A_P3" title="Consulta06_A_P3"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta06_B.cda">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta06_B.cda" createdDate="2021-08-12T15:25:42.141-03:00" isFolder="false" path="paineis/Consulta06_B.cda" isHidden="false" isSchedulable="true" locale="pt_BR" title="Consulta06_B.cda"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta06_B.cdfde">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta06_B.cdfde" createdDate="2021-08-12T15:25:42.102-03:00" isFolder="false" path="paineis/Consulta06_B.cdfde" isHidden="false" isSchedulable="true" locale="pt_BR" title="Consulta06_B.cdfde"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta06_B.wcdf">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta06_B.wcdf" createdDate="2021-08-12T15:25:42.021-03:00" isFolder="false" path="paineis/Consulta06_B.wcdf" isHidden="false" isSchedulable="true" locale="pt_BR" description="Consulta06_B" title="Consulta06_B"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta06_B_P1.cda">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta06_B_P1.cda" createdDate="2021-08-12T15:06:15.428-03:00" isFolder="false" path="paineis/Consulta06_B_P1.cda" isHidden="false" isSchedulable="true" locale="pt_BR" title="Consulta06_B_P1.cda"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta06_B_P1.cdfde">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta06_B_P1.cdfde" createdDate="2021-08-12T15:00:30.770-03:00" isFolder="false" path="paineis/Consulta06_B_P1.cdfde" isHidden="false" isSchedulable="true" locale="pt_BR" title="Consulta06_B_P1.cdfde"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta06_B_P1.wcdf">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta06_B_P1.wcdf" createdDate="2021-08-12T15:00:30.707-03:00" isFolder="false" path="paineis/Consulta06_B_P1.wcdf" isHidden="false" isSchedulable="true" locale="pt_BR" description="Consulta06_B_P1" title="Consulta06_B_P1"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta06_B_P2.cda">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta06_B_P2.cda" createdDate="2021-08-12T15:16:30.776-03:00" isFolder="false" path="paineis/Consulta06_B_P2.cda" isHidden="false" isSchedulable="true" locale="pt_BR" title="Consulta06_B_P2.cda"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta06_B_P2.cdfde">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta06_B_P2.cdfde" createdDate="2021-08-12T15:16:30.709-03:00" isFolder="false" path="paineis/Consulta06_B_P2.cdfde" isHidden="false" isSchedulable="true" locale="pt_BR" title="Consulta06_B_P2.cdfde"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/Consulta06_B_P2.wcdf">
+        <ExportManifestProperty>
+            <EntityMetaData name="Consulta06_B_P2.wcdf" createdDate="2021-08-12T15:16:30.616-03:00" isFolder="false" path="paineis/Consulta06_B_P2.wcdf" isHidden="false" isSchedulable="true" locale="pt_BR" description="Consulta06_B_P2" title="Consulta06_B_P2"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/formato.css">
+        <ExportManifestProperty>
+            <EntityMetaData name="formato.css" createdDate="2021-07-29T13:01:40.705-03:00" isFolder="false" path="paineis/formato.css" isHidden="true" isSchedulable="true" locale="pt_BR" title="formato.css"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="paineis/fundo.png">
+        <ExportManifestProperty>
+            <EntityMetaData name="fundo.png" createdDate="2021-07-29T13:01:10.490-03:00" isFolder="false" path="paineis/fundo.png" isHidden="true" isSchedulable="true" locale="pt_BR" title="fundo.png"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+</ns2:ExportManifest>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDADescriptor>
+   <DataSources>
+      <Connection id="selecao_fabricas" type="sql.jndi">
+         <Jndi>dmpresidencia</Jndi>
+      </Connection>
+      <Connection id="selecao_anos" type="sql.jndi">
+         <Jndi>dmpresidencia</Jndi>
+      </Connection>
+   </DataSources>
+   <DataAccess access="public" connection="selecao_fabricas" id="selecao_fabricas" type="sql">
+      <Name>selecao_fabricas</Name>
+      <Cache duration="3600" enabled="true"/>
+      <Columns/>
+      <Parameters/>
+      <Query><![CDATA[SELECT DISTINCT DESC_FABRICA FROM DIM_FABRICA
+WHERE COD_FABRICA IN ('001','002')
+ORDER BY DESC_FABRICA]]></Query>
+   </DataAccess>
+   <DataAccess access="public" connection="selecao_anos" id="selecao_anos" type="sql">
+      <Name>selecao_anos</Name>
+      <Cache duration="3600" enabled="true"/>
+      <Columns/>
+      <Parameters/>
+      <Query><![CDATA[SELECT DISTINCT NUMERO_ANO AS ANO FROM DIM_TEMPO
+WHERE NUMERO_ANO IN ('2013','2014','2015')
+ORDER BY NUMERO_ANO]]></Query>
+   </DataAccess>
+</CDADescriptor>

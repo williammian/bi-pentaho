@@ -1,0 +1,9 @@
+WITH
+SET [~COLUMNS] AS
+    {[Cliente].[Regiao].Members}
+SET [~ROWS] AS
+    {[Produto].[Marca].Members}
+SELECT
+NON EMPTY [~COLUMNS] ON COLUMNS,
+NON EMPTY [~ROWS] ON ROWS
+FROM [dmpresidencia]

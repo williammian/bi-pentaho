@@ -1,0 +1,416 @@
+{
+  "components" : {
+    "rows" : [
+      {
+        "id" : "STANDARDCOMPONENTS",
+        "name" : "Standard",
+        "type" : "Label",
+        "typeDesc" : "\u003Ci\u003EGroup\u003C/i\u003E",
+        "parent" : "UnIqEiD",
+        "properties" : [
+          {
+            "name" : "Group",
+            "value" : "Standard",
+            "type" : "Label"
+          }
+        ]
+      },
+      {
+        "id" : "ce256620-3f24-0bb9-4c26-8b23ac951110",
+        "type" : "ComponentsNewMapComponent",
+        "typeDesc" : "Map Component",
+        "parent" : "STANDARDCOMPONENTS",
+        "properties" : [
+          {
+            "name" : "name",
+            "value" : "mapa_brasil",
+            "type" : "Id"
+          },
+          {
+            "name" : "parameter",
+            "value" : "",
+            "type" : "Parameter"
+          },
+          {
+            "name" : "listeners",
+            "value" : "[]",
+            "type" : "Listeners"
+          },
+          {
+            "name" : "API_KEY",
+            "value" : "0",
+            "type" : "String"
+          },
+          {
+            "name" : "centerLatitude",
+            "value" : "-20",
+            "type" : "Float"
+          },
+          {
+            "name" : "centerLongitude",
+            "value" : "-47",
+            "type" : "Float"
+          },
+          {
+            "name" : "cggGraphParameters",
+            "value" : "[]",
+            "type" : "ValuesArray"
+          },
+          {
+            "name" : "colormap",
+            "value" : "[]",
+            "type" : "Array"
+          },
+          {
+            "name" : "defaultZoomLevel",
+            "value" : "3",
+            "type" : "Integer"
+          },
+          {
+            "name" : "fillOpacity",
+            "value" : "",
+            "type" : "Float"
+          },
+          {
+            "name" : "locationResolver",
+            "value" : "openstreetmap",
+            "type" : "locationResolverCustom"
+          },
+          {
+            "name" : "mapEngineType",
+            "value" : "openlayers",
+            "type" : "mapEngineTypeCustom"
+          },
+          {
+            "name" : "mapMode",
+            "value" : "markers",
+            "type" : "mapModeCustom"
+          },
+          {
+            "name" : "marker",
+            "value" : "",
+            "type" : "String"
+          },
+          {
+            "name" : "markerCggGraph",
+            "value" : "",
+            "type" : "String"
+          },
+          {
+            "name" : "markerClickFunction",
+            "value" : "",
+            "type" : "JavaScript"
+          },
+          {
+            "name" : "markerHeight",
+            "value" : 25,
+            "type" : "Integer"
+          },
+          {
+            "name" : "markerWidth",
+            "value" : 25,
+            "type" : "Integer"
+          },
+          {
+            "name" : "parameters",
+            "value" : "[]",
+            "type" : "ValuesArray"
+          },
+          {
+            "name" : "popupContentsDiv",
+            "value" : "",
+            "type" : "String"
+          },
+          {
+            "name" : "popupHeight",
+            "value" : 250,
+            "type" : "Integer"
+          },
+          {
+            "name" : "popupParameters",
+            "value" : "[[\u0022Cidade\u0022,\u0022VAR_CIDADE\u0022]]",
+            "type" : "ValuesArray"
+          },
+          {
+            "name" : "popupWidth",
+            "value" : 250,
+            "type" : "Integer"
+          },
+          {
+            "name" : "shapeSource",
+            "value" : "",
+            "type" : "String"
+          },
+          {
+            "name" : "strokeColor",
+            "value" : "",
+            "type" : "String"
+          },
+          {
+            "name" : "strokeWidth",
+            "value" : "",
+            "type" : "Float"
+          },
+          {
+            "name" : "tilesets",
+            "value" : "default",
+            "type" : "tilesetsCustom"
+          },
+          {
+            "name" : "dataSource",
+            "value" : "selecao_posicoes",
+            "type" : "Datasource"
+          },
+          {
+            "name" : "priority",
+            "value" : 5,
+            "type" : "Integer"
+          },
+          {
+            "name" : "htmlObject",
+            "value" : "${h:row1}",
+            "type" : "HtmlObject"
+          },
+          {
+            "name" : "executeAtStart",
+            "value" : "true",
+            "type" : "Boolean"
+          },
+          {
+            "name" : "preExecution",
+            "value" : "",
+            "type" : "JavaScript"
+          },
+          {
+            "name" : "postExecution",
+            "value" : "",
+            "type" : "JavaScript"
+          },
+          {
+            "name" : "postFetch",
+            "value" : "",
+            "type" : "JavaScript"
+          },
+          {
+            "name" : "preChange",
+            "value" : "",
+            "type" : "JavaScript"
+          },
+          {
+            "name" : "postChange",
+            "value" : "",
+            "type" : "JavaScript"
+          },
+          {
+            "name" : "tooltip",
+            "value" : "",
+            "type" : "Html"
+          },
+          {
+            "name" : "shapeMouseClick",
+            "value" : "",
+            "type" : "JavaScript"
+          },
+          {
+            "name" : "shapeMouseOut",
+            "value" : "",
+            "type" : "JavaScript"
+          },
+          {
+            "name" : "shapeMouseOver",
+            "value" : "",
+            "type" : "JavaScript"
+          }
+        ],
+        "rowName" : "Map Component"
+      },
+      {
+        "id" : "PARAMETERS",
+        "name" : "Parameters",
+        "type" : "Label",
+        "typeDesc" : "\u003Ci\u003EGroup\u003C/i\u003E",
+        "parent" : "UnIqEiD",
+        "properties" : [
+          {
+            "name" : "Group",
+            "value" : "Parameters",
+            "type" : "Label"
+          }
+        ]
+      },
+      {
+        "id" : "cce8a083-d396-46f4-7027-3e7678ff4bed",
+        "type" : "ComponentsParameter",
+        "typeDesc" : "Simple parameter",
+        "parent" : "PARAMETERS",
+        "properties" : [
+          {
+            "name" : "name",
+            "value" : "VAR_CIDADE",
+            "type" : "Id"
+          },
+          {
+            "name" : "propertyValue",
+            "value" : "",
+            "type" : "String"
+          },
+          {
+            "name" : "parameterViewRole",
+            "value" : "unused",
+            "type" : "parameterViewRoleCustom"
+          },
+          {
+            "name" : "bookmarkable",
+            "value" : "false",
+            "type" : "Boolean"
+          },
+          {
+            "name" : "public",
+            "value" : "false",
+            "type" : "Boolean"
+          }
+        ],
+        "rowName" : "Simple Parameter"
+      }
+    ]
+  },
+  "datasources" : {
+    "rows" : [
+      {
+        "id" : "SCRIPTING",
+        "name" : "SCRIPTING Queries",
+        "type" : "Label",
+        "typeDesc" : "\u003Ci\u003EGroup\u003C/i\u003E",
+        "parent" : "UnIqEiD",
+        "properties" : [
+          {
+            "name" : "Group",
+            "value" : "SCRIPTING Queries",
+            "type" : "Label"
+          }
+        ]
+      },
+      {
+        "id" : "ed09030c-0196-9a72-93ff-d7deec698990",
+        "type" : "Componentsscriptable_scripting",
+        "typeDesc" : "scriptable over scripting",
+        "parent" : "SCRIPTING",
+        "properties" : [
+          {
+            "name" : "name",
+            "value" : "selecao_posicoes",
+            "type" : "Id"
+          },
+          {
+            "name" : "initscript",
+            "value" : "",
+            "type" : "String"
+          },
+          {
+            "name" : "language",
+            "value" : "beanshell",
+            "type" : "String"
+          },
+          {
+            "name" : "access",
+            "value" : "public",
+            "type" : "Access"
+          },
+          {
+            "name" : "query",
+            "value" : "import org.pentaho.reporting.engine.classic.core.util.TypedTableModel;\r\n\r\nString[] columnNames = new String[]{\r\n\u0022Latitude\u0022, \u0022Longitude\u0022, \u0022Cidade\u0022\r\n};\r\n\r\nClass[] columnTypes = new Class[]{\r\nString.class,String.class,String.class\r\n};\r\n\r\nTypedTableModel model = new TypedTableModel(columnNames, columnTypes);\r\n\r\nmodel.addRow(new Object[]{ new String(\u0022-30.0325\u0022), new String(\u0022-51.230377\u0022), new String(\u0022Porto Alegre\u0022)});\r\nmodel.addRow(new Object[]{ new String(\u0022-16.680519\u0022), new String(\u0022-49,25613\u0022), new String(\u0022Goiais\u0022)});\r\nmodel.addRow(new Object[]{ new String(\u0022-22.905560\u0022), new String(\u0022-47.06083\u0022), new String(\u0022Campinas\u0022)});\r\nmodel.addRow(new Object[]{ new String(\u0022-19.917299\u0022), new String(\u0022-43.934559\u0022), new String(\u0022Belo Horizonte\u0022)});\r\nmodel.addRow(new Object[]{ new String(\u0022-23.54867\u0022),new String(\u0022-46.638248\u0022), new String(\u0022São Paulo\u0022)});\r\nmodel.addRow(new Object[]{ new String(\u0022-20.464017\u0022), new String(\u0022-54.616295\u0022), new String(\u0022Campo Grande\u0022)});\r\nmodel.addRow(new Object[]{ new String(\u0022-22.911014\u0022), new String(\u0022-43.691730\u0022), new String(\u0022Rio de Janeiro\u0022)});\r\nmodel.addRow(new Object[]{ new String(\u0022-15.826691\u0022), new String(\u0022-47.921822\u0022), new String(\u0022Brasília\u0022)});\r\nmodel.addRow(new Object[]{ new String(\u0022-25.480877\u0022), new String(\u0022-49.304424\u0022), new String(\u0022Curitiba\u0022)});\r\nmodel.addRow(new Object[]{ new String(\u0022-23.960833\u0022), new String(\u0022-46.333889\u0022), new String(\u0022Santos\u0022)});\r\nmodel.addRow(new Object[]{ new String(\u0022-12.98225\u0022), new String(\u0022-38.481277\u0022), new String(\u0022Salvador\u0022)});\r\nmodel.addRow(new Object[]{ new String(\u0022-22.883237\u0022), new String(\u0022-43.115455\u0022), new String(\u0022Niterói\u0022)});\r\n\r\nreturn model;",
+            "type" : "ScriptableQuery"
+          },
+          {
+            "name" : "parameters",
+            "value" : "[]",
+            "type" : "CdaParameters"
+          },
+          {
+            "name" : "cdacalculatedcolumns",
+            "value" : "[]",
+            "type" : "CdaCalculatedColumnsArray"
+          },
+          {
+            "name" : "cdacolumns",
+            "value" : "[]",
+            "type" : "CdaColumnsArray"
+          },
+          {
+            "name" : "output",
+            "value" : "[]",
+            "type" : "IndexArray"
+          },
+          {
+            "name" : "outputMode",
+            "value" : "include",
+            "type" : "OutputMode"
+          },
+          {
+            "name" : "cacheKeys",
+            "value" : "[]",
+            "type" : "CacheKeysValues"
+          },
+          {
+            "name" : "cacheDuration",
+            "value" : 3600,
+            "type" : "Integer"
+          },
+          {
+            "name" : "cache",
+            "value" : "true",
+            "type" : "Boolean"
+          }
+        ],
+        "meta" : "CDA",
+        "meta_conntype" : "scripting.scripting",
+        "meta_datype" : "scriptable",
+        "rowName" : "scriptable over scripting"
+      }
+    ]
+  },
+  "filename" : "/public/sucos/paineis/Consulta06_B_P1.cdfde",
+  "layout" : {
+    "rows" : [
+      {
+        "id" : "a8e15e1e-3076-08f9-7f1c-dbdad165bf32",
+        "type" : "LayoutRow",
+        "typeDesc" : "Row",
+        "parent" : "UnIqEiD",
+        "properties" : [
+          {
+            "name" : "name",
+            "value" : "row1",
+            "type" : "Id"
+          },
+          {
+            "name" : "height",
+            "value" : "500",
+            "type" : "Integer"
+          },
+          {
+            "name" : "backgroundColor",
+            "value" : "",
+            "type" : "Color"
+          },
+          {
+            "name" : "roundCorners",
+            "value" : "",
+            "type" : "RoundCorners"
+          },
+          {
+            "name" : "textAlign",
+            "value" : "",
+            "type" : "TextAlign"
+          },
+          {
+            "name" : "cssClass",
+            "value" : "",
+            "type" : "String"
+          }
+        ]
+      }
+    ],
+    "title" : "CDF - Sample structure"
+  }
+}

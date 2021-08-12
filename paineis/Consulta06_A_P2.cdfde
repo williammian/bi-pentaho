@@ -1,0 +1,982 @@
+{
+  "components" : {
+    "rows" : [
+      {
+        "id" : "SELECTORS",
+        "name" : "Selects",
+        "type" : "Label",
+        "typeDesc" : "\u003Ci\u003EGroup\u003C/i\u003E",
+        "parent" : "UnIqEiD",
+        "properties" : [
+          {
+            "name" : "Group",
+            "value" : "Selects",
+            "type" : "Label"
+          }
+        ]
+      },
+      {
+        "id" : "35994690-92e0-6b79-8a7e-acb90f92b78e",
+        "type" : "ComponentsSelect",
+        "typeDesc" : "Select Component",
+        "parent" : "SELECTORS",
+        "properties" : [
+          {
+            "name" : "name",
+            "value" : "selecao_ano",
+            "type" : "Id"
+          },
+          {
+            "name" : "parameter",
+            "value" : "",
+            "type" : "Parameter"
+          },
+          {
+            "name" : "listeners",
+            "value" : "[]",
+            "type" : "Listeners"
+          },
+          {
+            "name" : "parameters",
+            "value" : "[]",
+            "type" : "ValuesArray"
+          },
+          {
+            "name" : "externalPlugin",
+            "value" : "",
+            "type" : "externalPluginCustom"
+          },
+          {
+            "name" : "valueAsId",
+            "value" : "true",
+            "type" : "Boolean"
+          },
+          {
+            "name" : "useFirstValue",
+            "value" : "true",
+            "type" : "Boolean"
+          },
+          {
+            "name" : "dataSource",
+            "value" : "selecao_anos",
+            "type" : "Datasource"
+          },
+          {
+            "name" : "valuesArray",
+            "value" : "[]",
+            "type" : "ValuesArray"
+          },
+          {
+            "name" : "priority",
+            "value" : 5,
+            "type" : "Integer"
+          },
+          {
+            "name" : "refreshPeriod",
+            "value" : "",
+            "type" : "Integer"
+          },
+          {
+            "name" : "htmlObject",
+            "value" : "${h:row3col1row1}",
+            "type" : "HtmlObject"
+          },
+          {
+            "name" : "executeAtStart",
+            "value" : "true",
+            "type" : "Boolean"
+          },
+          {
+            "name" : "preExecution",
+            "value" : "",
+            "type" : "JavaScript"
+          },
+          {
+            "name" : "postExecution",
+            "value" : "",
+            "type" : "JavaScript"
+          },
+          {
+            "name" : "postFetch",
+            "value" : "",
+            "type" : "JavaScript"
+          },
+          {
+            "name" : "preChange",
+            "value" : "",
+            "type" : "JavaScript"
+          },
+          {
+            "name" : "postChange",
+            "value" : "",
+            "type" : "JavaScript"
+          },
+          {
+            "name" : "extraOptions",
+            "value" : "[]",
+            "type" : "ExtraOptionsArray"
+          },
+          {
+            "name" : "tooltip",
+            "value" : "",
+            "type" : "Html"
+          }
+        ],
+        "rowName" : "Select Component"
+      },
+      {
+        "id" : "282611f9-d6d8-a94c-e0b6-1483c4bc2944",
+        "type" : "ComponentsSelectMulti",
+        "typeDesc" : "Multiple Select Component",
+        "parent" : "SELECTORS",
+        "properties" : [
+          {
+            "name" : "name",
+            "value" : "selecao_fabricas",
+            "type" : "Id"
+          },
+          {
+            "name" : "parameter",
+            "value" : "",
+            "type" : "Parameter"
+          },
+          {
+            "name" : "listeners",
+            "value" : "[]",
+            "type" : "Listeners"
+          },
+          {
+            "name" : "parameters",
+            "value" : "[]",
+            "type" : "ValuesArray"
+          },
+          {
+            "name" : "externalPlugin",
+            "value" : "",
+            "type" : "externalPluginCustom"
+          },
+          {
+            "name" : "valueAsId",
+            "value" : "true",
+            "type" : "Boolean"
+          },
+          {
+            "name" : "useFirstValue",
+            "value" : "true",
+            "type" : "Boolean"
+          },
+          {
+            "name" : "dataSource",
+            "value" : "selecao_fabricas",
+            "type" : "Datasource"
+          },
+          {
+            "name" : "valuesArray",
+            "value" : "[]",
+            "type" : "ValuesArray"
+          },
+          {
+            "name" : "priority",
+            "value" : 5,
+            "type" : "Integer"
+          },
+          {
+            "name" : "refreshPeriod",
+            "value" : "",
+            "type" : "Integer"
+          },
+          {
+            "name" : "size",
+            "value" : "",
+            "type" : "Integer"
+          },
+          {
+            "name" : "htmlObject",
+            "value" : "${h:row3col1row3}",
+            "type" : "HtmlObject"
+          },
+          {
+            "name" : "executeAtStart",
+            "value" : "true",
+            "type" : "Boolean"
+          },
+          {
+            "name" : "preExecution",
+            "value" : "",
+            "type" : "JavaScript"
+          },
+          {
+            "name" : "postExecution",
+            "value" : "",
+            "type" : "JavaScript"
+          },
+          {
+            "name" : "postFetch",
+            "value" : "",
+            "type" : "JavaScript"
+          },
+          {
+            "name" : "preChange",
+            "value" : "",
+            "type" : "JavaScript"
+          },
+          {
+            "name" : "postChange",
+            "value" : "",
+            "type" : "JavaScript"
+          },
+          {
+            "name" : "tooltip",
+            "value" : "",
+            "type" : "Html"
+          }
+        ],
+        "rowName" : "Multiple Select Component"
+      }
+    ]
+  },
+  "datasources" : {
+    "rows" : [
+      {
+        "id" : "SQL",
+        "name" : "SQL Queries",
+        "type" : "Label",
+        "typeDesc" : "\u003Ci\u003EGroup\u003C/i\u003E",
+        "parent" : "UnIqEiD",
+        "properties" : [
+          {
+            "name" : "Group",
+            "value" : "SQL Queries",
+            "type" : "Label"
+          }
+        ]
+      },
+      {
+        "id" : "d8e5cc59-ba19-d742-ba53-ca259b172912",
+        "type" : "Componentssql_sqlJndi",
+        "typeDesc" : "sql over sqlJndi",
+        "parent" : "SQL",
+        "properties" : [
+          {
+            "name" : "name",
+            "value" : "selecao_fabricas",
+            "type" : "Id"
+          },
+          {
+            "name" : "access",
+            "value" : "public",
+            "type" : "Access"
+          },
+          {
+            "name" : "jndi",
+            "value" : "dmpresidencia",
+            "type" : "Jndi"
+          },
+          {
+            "name" : "query",
+            "value" : "SELECT DISTINCT DESC_FABRICA FROM DIM_FABRICA\r\nWHERE COD_FABRICA IN (\u0027001\u0027,\u0027002\u0027)\r\nORDER BY DESC_FABRICA",
+            "type" : "SqlQuery"
+          },
+          {
+            "name" : "parameters",
+            "value" : "[]",
+            "type" : "CdaParameters"
+          },
+          {
+            "name" : "cdacalculatedcolumns",
+            "value" : "[]",
+            "type" : "CdaCalculatedColumnsArray"
+          },
+          {
+            "name" : "cdacolumns",
+            "value" : "[]",
+            "type" : "CdaColumnsArray"
+          },
+          {
+            "name" : "output",
+            "value" : "[]",
+            "type" : "IndexArray"
+          },
+          {
+            "name" : "outputMode",
+            "value" : "include",
+            "type" : "OutputMode"
+          },
+          {
+            "name" : "cacheKeys",
+            "value" : "[]",
+            "type" : "CacheKeysValues"
+          },
+          {
+            "name" : "cacheDuration",
+            "value" : 3600,
+            "type" : "Integer"
+          },
+          {
+            "name" : "cache",
+            "value" : "true",
+            "type" : "Boolean"
+          }
+        ],
+        "meta" : "CDA",
+        "meta_conntype" : "sql.jndi",
+        "meta_datype" : "sql",
+        "rowName" : "sql over sqlJndi"
+      },
+      {
+        "id" : "124a2875-266c-0606-4fc5-99c89d8fc6ba",
+        "type" : "Componentssql_sqlJndi",
+        "typeDesc" : "sql over sqlJndi",
+        "parent" : "SQL",
+        "properties" : [
+          {
+            "name" : "name",
+            "value" : "selecao_anos",
+            "type" : "Id"
+          },
+          {
+            "name" : "access",
+            "value" : "public",
+            "type" : "Access"
+          },
+          {
+            "name" : "jndi",
+            "value" : "dmpresidencia",
+            "type" : "Jndi"
+          },
+          {
+            "name" : "query",
+            "value" : "SELECT DISTINCT NUMERO_ANO AS ANO FROM DIM_TEMPO\r\nWHERE NUMERO_ANO IN (\u00272013\u0027,\u00272014\u0027,\u00272015\u0027)\r\nORDER BY NUMERO_ANO",
+            "type" : "SqlQuery"
+          },
+          {
+            "name" : "parameters",
+            "value" : "[]",
+            "type" : "CdaParameters"
+          },
+          {
+            "name" : "cdacalculatedcolumns",
+            "value" : "[]",
+            "type" : "CdaCalculatedColumnsArray"
+          },
+          {
+            "name" : "cdacolumns",
+            "value" : "[]",
+            "type" : "CdaColumnsArray"
+          },
+          {
+            "name" : "output",
+            "value" : "[]",
+            "type" : "IndexArray"
+          },
+          {
+            "name" : "outputMode",
+            "value" : "include",
+            "type" : "OutputMode"
+          },
+          {
+            "name" : "cacheKeys",
+            "value" : "[]",
+            "type" : "CacheKeysValues"
+          },
+          {
+            "name" : "cacheDuration",
+            "value" : 3600,
+            "type" : "Integer"
+          },
+          {
+            "name" : "cache",
+            "value" : "true",
+            "type" : "Boolean"
+          }
+        ],
+        "meta" : "CDA",
+        "meta_conntype" : "sql.jndi",
+        "meta_datype" : "sql",
+        "rowName" : "sql over sqlJndi"
+      }
+    ]
+  },
+  "filename" : "/public/sucos/paineis/Consulta06_A_P2.cdfde",
+  "layout" : {
+    "rows" : [
+      {
+        "id" : "557ad163-efed-9c8c-8522-21ffc1fcea25",
+        "parent" : "UnIqEiD",
+        "properties" : [
+          {
+            "name" : "name",
+            "type" : "Id",
+            "value" : "CSS"
+          },
+          {
+            "name" : "resourceFile",
+            "type" : "ResourceFile",
+            "value" : "${solution:/public/sucos/paineis/formato.css}"
+          },
+          {
+            "name" : "resourceType",
+            "type" : "Label",
+            "value" : "Css"
+          }
+        ],
+        "type" : "LayoutResourceFile",
+        "typeDesc" : "Resource"
+      },
+      {
+        "id" : "19cd22b3-53d1-2a2a-9e01-90eef4e63882",
+        "parent" : "UnIqEiD",
+        "properties" : [
+          {
+            "name" : "name",
+            "type" : "Id",
+            "value" : "row1"
+          },
+          {
+            "name" : "height",
+            "type" : "Integer",
+            "value" : "50"
+          },
+          {
+            "name" : "backgroundColor",
+            "type" : "Color",
+            "value" : ""
+          },
+          {
+            "name" : "roundCorners",
+            "type" : "RoundCorners",
+            "value" : ""
+          },
+          {
+            "name" : "textAlign",
+            "type" : "TextAlign",
+            "value" : ""
+          },
+          {
+            "name" : "cssClass",
+            "type" : "String",
+            "value" : ""
+          }
+        ],
+        "type" : "LayoutRow",
+        "typeDesc" : "Row"
+      },
+      {
+        "id" : "43bb7988-82d1-2d1a-a042-15ae47fdf85f",
+        "parent" : "19cd22b3-53d1-2a2a-9e01-90eef4e63882",
+        "properties" : [
+          {
+            "name" : "name",
+            "type" : "Id",
+            "value" : "row1col1"
+          },
+          {
+            "name" : "columnSpan",
+            "type" : "Integer",
+            "value" : "24"
+          },
+          {
+            "name" : "columnPrepend",
+            "type" : "Integer",
+            "value" : ""
+          },
+          {
+            "name" : "columnAppend",
+            "type" : "Integer",
+            "value" : ""
+          },
+          {
+            "name" : "columnPrependTop",
+            "type" : "Boolean",
+            "value" : "false"
+          },
+          {
+            "name" : "columnAppendBottom",
+            "type" : "Boolean",
+            "value" : "false"
+          },
+          {
+            "name" : "columnBorder",
+            "type" : "Boolean",
+            "value" : "false"
+          },
+          {
+            "name" : "columnBigBorder",
+            "type" : "Boolean",
+            "value" : "false"
+          },
+          {
+            "name" : "height",
+            "type" : "Integer",
+            "value" : "50"
+          },
+          {
+            "name" : "backgroundColor",
+            "type" : "Color",
+            "value" : "#e3e3e3"
+          },
+          {
+            "name" : "roundCorners",
+            "type" : "RoundCorners",
+            "value" : ""
+          },
+          {
+            "name" : "textAlign",
+            "type" : "TextAlign",
+            "value" : "center"
+          },
+          {
+            "name" : "cssClass",
+            "type" : "String",
+            "value" : ""
+          }
+        ],
+        "type" : "LayoutColumn",
+        "typeDesc" : "Column"
+      },
+      {
+        "id" : "dad7a22e-a8e5-269e-b80a-fa3a377ef8fd",
+        "parent" : "43bb7988-82d1-2d1a-a042-15ae47fdf85f",
+        "properties" : [
+          {
+            "name" : "name",
+            "type" : "Id",
+            "value" : "htmlTitulo"
+          },
+          {
+            "name" : "html",
+            "type" : "Html",
+            "value" : "Dashboard de Vendas "
+          },
+          {
+            "name" : "fontSize",
+            "type" : "Integer",
+            "value" : ""
+          },
+          {
+            "name" : "color",
+            "type" : "Color",
+            "value" : ""
+          },
+          {
+            "name" : "cssClass",
+            "type" : "String",
+            "value" : "titulo"
+          }
+        ],
+        "type" : "LayoutHtml",
+        "typeDesc" : "Html"
+      },
+      {
+        "id" : "898f0c53-ebee-46ef-8039-493b4130fbb2",
+        "parent" : "UnIqEiD",
+        "properties" : [
+          {
+            "name" : "name",
+            "type" : "Id",
+            "value" : "row2"
+          },
+          {
+            "name" : "height",
+            "type" : "Integer",
+            "value" : "10"
+          },
+          {
+            "name" : "backgroundColor",
+            "type" : "Color",
+            "value" : ""
+          },
+          {
+            "name" : "roundCorners",
+            "type" : "RoundCorners",
+            "value" : ""
+          },
+          {
+            "name" : "textAlign",
+            "type" : "TextAlign",
+            "value" : ""
+          },
+          {
+            "name" : "cssClass",
+            "type" : "String",
+            "value" : ""
+          }
+        ],
+        "type" : "LayoutRow",
+        "typeDesc" : "Row"
+      },
+      {
+        "id" : "5cc13d18-86e0-0963-2dc3-fe572a3eba89",
+        "parent" : "UnIqEiD",
+        "properties" : [
+          {
+            "name" : "name",
+            "type" : "Id",
+            "value" : "row3"
+          },
+          {
+            "name" : "height",
+            "type" : "Integer",
+            "value" : "300"
+          },
+          {
+            "name" : "backgroundColor",
+            "type" : "Color",
+            "value" : ""
+          },
+          {
+            "name" : "roundCorners",
+            "type" : "RoundCorners",
+            "value" : ""
+          },
+          {
+            "name" : "textAlign",
+            "type" : "TextAlign",
+            "value" : ""
+          },
+          {
+            "name" : "cssClass",
+            "type" : "String",
+            "value" : ""
+          }
+        ],
+        "type" : "LayoutRow",
+        "typeDesc" : "Row"
+      },
+      {
+        "id" : "8f34bfcd-b0ad-e1e2-eed0-28ed856673f7",
+        "parent" : "5cc13d18-86e0-0963-2dc3-fe572a3eba89",
+        "properties" : [
+          {
+            "name" : "name",
+            "type" : "Id",
+            "value" : "row3col1"
+          },
+          {
+            "name" : "columnSpan",
+            "type" : "Integer",
+            "value" : "6"
+          },
+          {
+            "name" : "columnPrepend",
+            "type" : "Integer",
+            "value" : ""
+          },
+          {
+            "name" : "columnAppend",
+            "type" : "Integer",
+            "value" : ""
+          },
+          {
+            "name" : "columnPrependTop",
+            "type" : "Boolean",
+            "value" : "false"
+          },
+          {
+            "name" : "columnAppendBottom",
+            "type" : "Boolean",
+            "value" : "false"
+          },
+          {
+            "name" : "columnBorder",
+            "type" : "Boolean",
+            "value" : "false"
+          },
+          {
+            "name" : "columnBigBorder",
+            "type" : "Boolean",
+            "value" : "false"
+          },
+          {
+            "name" : "height",
+            "type" : "Integer",
+            "value" : "300"
+          },
+          {
+            "name" : "backgroundColor",
+            "type" : "Color",
+            "value" : ""
+          },
+          {
+            "name" : "roundCorners",
+            "type" : "RoundCorners",
+            "value" : ""
+          },
+          {
+            "name" : "textAlign",
+            "type" : "TextAlign",
+            "value" : ""
+          },
+          {
+            "name" : "cssClass",
+            "type" : "String",
+            "value" : ""
+          }
+        ],
+        "type" : "LayoutColumn",
+        "typeDesc" : "Column"
+      },
+      {
+        "id" : "d2449396-af50-e3c3-f8f2-a292308a3d90",
+        "parent" : "8f34bfcd-b0ad-e1e2-eed0-28ed856673f7",
+        "properties" : [
+          {
+            "name" : "name",
+            "type" : "Id",
+            "value" : "row3col1row1"
+          },
+          {
+            "name" : "height",
+            "type" : "Integer",
+            "value" : "145"
+          },
+          {
+            "name" : "backgroundColor",
+            "type" : "Color",
+            "value" : "#e3e3e3"
+          },
+          {
+            "name" : "roundCorners",
+            "type" : "RoundCorners",
+            "value" : ""
+          },
+          {
+            "name" : "textAlign",
+            "type" : "TextAlign",
+            "value" : ""
+          },
+          {
+            "name" : "cssClass",
+            "type" : "String",
+            "value" : ""
+          }
+        ],
+        "type" : "LayoutRow",
+        "typeDesc" : "Row"
+      },
+      {
+        "id" : "6f3b609d-28fe-a838-a3ad-aba2cf7abc44",
+        "parent" : "8f34bfcd-b0ad-e1e2-eed0-28ed856673f7",
+        "properties" : [
+          {
+            "name" : "name",
+            "type" : "Id",
+            "value" : "row3col1row2"
+          },
+          {
+            "name" : "height",
+            "type" : "Integer",
+            "value" : "10"
+          },
+          {
+            "name" : "backgroundColor",
+            "type" : "Color",
+            "value" : ""
+          },
+          {
+            "name" : "roundCorners",
+            "type" : "RoundCorners",
+            "value" : ""
+          },
+          {
+            "name" : "textAlign",
+            "type" : "TextAlign",
+            "value" : ""
+          },
+          {
+            "name" : "cssClass",
+            "type" : "String",
+            "value" : ""
+          }
+        ],
+        "type" : "LayoutRow",
+        "typeDesc" : "Row"
+      },
+      {
+        "id" : "b735a14c-fada-55fa-f5ef-7d997ef12b59",
+        "parent" : "8f34bfcd-b0ad-e1e2-eed0-28ed856673f7",
+        "properties" : [
+          {
+            "name" : "name",
+            "type" : "Id",
+            "value" : "row3col1row3"
+          },
+          {
+            "name" : "height",
+            "type" : "Integer",
+            "value" : "145"
+          },
+          {
+            "name" : "backgroundColor",
+            "type" : "Color",
+            "value" : "#e3e3e3"
+          },
+          {
+            "name" : "roundCorners",
+            "type" : "RoundCorners",
+            "value" : ""
+          },
+          {
+            "name" : "textAlign",
+            "type" : "TextAlign",
+            "value" : ""
+          },
+          {
+            "name" : "cssClass",
+            "type" : "String",
+            "value" : ""
+          }
+        ],
+        "type" : "LayoutRow",
+        "typeDesc" : "Row"
+      },
+      {
+        "id" : "eec5d1c4-5ff8-7d3a-fcbf-548fd9992ffb",
+        "parent" : "5cc13d18-86e0-0963-2dc3-fe572a3eba89",
+        "properties" : [
+          {
+            "name" : "name",
+            "type" : "Id",
+            "value" : "ro3col2"
+          },
+          {
+            "name" : "columnSpan",
+            "type" : "Integer",
+            "value" : "1"
+          },
+          {
+            "name" : "columnPrepend",
+            "type" : "Integer",
+            "value" : ""
+          },
+          {
+            "name" : "columnAppend",
+            "type" : "Integer",
+            "value" : ""
+          },
+          {
+            "name" : "columnPrependTop",
+            "type" : "Boolean",
+            "value" : "false"
+          },
+          {
+            "name" : "columnAppendBottom",
+            "type" : "Boolean",
+            "value" : "false"
+          },
+          {
+            "name" : "columnBorder",
+            "type" : "Boolean",
+            "value" : "false"
+          },
+          {
+            "name" : "columnBigBorder",
+            "type" : "Boolean",
+            "value" : "false"
+          },
+          {
+            "name" : "height",
+            "type" : "Integer",
+            "value" : "300"
+          },
+          {
+            "name" : "backgroundColor",
+            "type" : "Color",
+            "value" : ""
+          },
+          {
+            "name" : "roundCorners",
+            "type" : "RoundCorners",
+            "value" : ""
+          },
+          {
+            "name" : "textAlign",
+            "type" : "TextAlign",
+            "value" : ""
+          },
+          {
+            "name" : "cssClass",
+            "type" : "String",
+            "value" : ""
+          }
+        ],
+        "type" : "LayoutColumn",
+        "typeDesc" : "Column"
+      },
+      {
+        "id" : "ee1b60e4-2394-f251-df21-e2421d6f1bba",
+        "parent" : "5cc13d18-86e0-0963-2dc3-fe572a3eba89",
+        "properties" : [
+          {
+            "name" : "name",
+            "type" : "Id",
+            "value" : "row3col3"
+          },
+          {
+            "name" : "columnSpan",
+            "type" : "Integer",
+            "value" : "17"
+          },
+          {
+            "name" : "columnPrepend",
+            "type" : "Integer",
+            "value" : ""
+          },
+          {
+            "name" : "columnAppend",
+            "type" : "Integer",
+            "value" : ""
+          },
+          {
+            "name" : "columnPrependTop",
+            "type" : "Boolean",
+            "value" : "false"
+          },
+          {
+            "name" : "columnAppendBottom",
+            "type" : "Boolean",
+            "value" : "false"
+          },
+          {
+            "name" : "columnBorder",
+            "type" : "Boolean",
+            "value" : "false"
+          },
+          {
+            "name" : "columnBigBorder",
+            "type" : "Boolean",
+            "value" : "false"
+          },
+          {
+            "name" : "height",
+            "type" : "Integer",
+            "value" : "300"
+          },
+          {
+            "name" : "backgroundColor",
+            "type" : "Color",
+            "value" : "#e3e3e3"
+          },
+          {
+            "name" : "roundCorners",
+            "type" : "RoundCorners",
+            "value" : ""
+          },
+          {
+            "name" : "textAlign",
+            "type" : "TextAlign",
+            "value" : ""
+          },
+          {
+            "name" : "cssClass",
+            "type" : "String",
+            "value" : ""
+          }
+        ],
+        "type" : "LayoutColumn",
+        "typeDesc" : "Column"
+      }
+    ],
+    "title" : "CDF - Sample structure"
+  }
+}

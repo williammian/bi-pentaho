@@ -1,0 +1,15 @@
+SELECT X.SABOR, X.FATURAMENTO FROM (
+SELECT 
+dim_produto.Atr_Sabor AS SABOR,
+SUM(fato_presidencia.faturamento) AS FATURAMENTO, 
+SUM(fato_presidencia.custo_fixo) + 
+SUM(fato_presidencia.custo_frete) + 
+SUM(fato_presidencia.custo_variavel) AS CUSTO
+FROM fato_presidencia
+INNER JOIN dim_produto ON fato_presidencia.ID_Produto = dim_produto.ID_Produto
+INNER JOIN dim_fabrica ON fato_presidencia.ID_Fabrica = dim_fabrica.ID_Fabrica
+INNER JOIN dim_tempo ON fato_presidencia.ID_Tempo = dim_tempo.ID_tempo
+INNER JOIN dim_cliente ON fato_presidencia.ID_Cliente = dim_cliente.ID_Cliente
+WHERE dim_cliente.Desc_Cidade in ('Rio de Janeiro')
+GROUP BY dim_produto.Atr_Sabor) X
+ORDER BY X.FATURAMENTO DESC

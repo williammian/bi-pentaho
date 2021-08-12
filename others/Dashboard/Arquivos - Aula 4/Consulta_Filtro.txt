@@ -1,0 +1,2 @@
+SELECT distinct Numero_Ano AS ano 
+FROM dim_tempo where Numero_Ano in (2013,2014,2015)

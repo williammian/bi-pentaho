@@ -1,0 +1,3 @@
+function(scene){
+ Dashboards.fireChange('VAR_CAT',scene.vars.category.value);
+}
